@@ -6,5 +6,5 @@
 
 4.array（存储各种值的结构）
 
-5.object
+5.object（Everything in JavaScript is an object）
 
