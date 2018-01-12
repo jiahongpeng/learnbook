@@ -2,5 +2,7 @@
 
 ISP（Internet Service Provider）：ISP是一个公司，它管理一些特殊的路由器，这些路由器连接在一起，也可以访问其他ISP的路由器。因此，我们的网络信息通过ISP网络的网络传输到目标网络。互联网是由网络的整个基础设施组成的。
 
+![](/assets/internet-schema-7.png)
+
 
 
