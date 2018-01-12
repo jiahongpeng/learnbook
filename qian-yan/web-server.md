@@ -8,7 +8,13 @@
 
 要获取一个网页，您的浏览器向web服务器发送一个请求，该请求将在其自己的存储空间中搜索请求的文件。在找到文件时，服务器读取它，根据需要处理它，并将它发送到浏览器。
 
+### Hosting files（主机文件） {#Hosting_files}
+
 HTTP为客户机和服务器之间的通信提供了清晰的规则。
 
+### Communicating through HTTP（通过http进行通讯） {#Communicating_through_HTTP}
+
 在web服务器上，HTTP服务器负责处理和响应传入的请求。
+
+
 
