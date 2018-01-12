@@ -4,5 +4,5 @@ ISP（Internet Service Provider）：ISP是一个公司，它管理一些特殊�
 
 ![](/assets/internet-schema-7.png)
 
-
+ip address：如果您想要向计算机发送消息，您必须指定哪一个。因此，任何连接到网络的计算机都有一个唯一的地址来识别它，称为“IP地址”
 
