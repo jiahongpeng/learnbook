@@ -101,7 +101,7 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
       .divcss5-left{ float:left} 
       .divcss5-right{ float:right} 
       .clear{ clear:both}
-  3.  父元素加上overflow:hidden
+  3.  父元素加上overflow:hidden;ie中加上zoom:1
   4.  .clearfix:after{
         content: "020"; 
         display: block; 
@@ -109,12 +109,12 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
         clear: both; 
         visibility: hidden;  
         }
-      
+
       .clearfix {
         /* 触发 hasLayout */ 
         zoom: 1; 
         }
-      
+
       <div class="news clearfix">
       <img src="news-pic.jpg" />
       <p>some text</p>
