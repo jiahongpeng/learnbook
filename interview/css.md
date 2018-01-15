@@ -81,3 +81,5 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
 
 4、fixed（固定定位）：生成绝对定位的元素，相对于浏览器窗口进行定位。元素的位置通过 "left", "top", "right" 以及 "bottom" 属性进行规定。可通过z-index进行层次分级。
 
+只有三种情况会使得元素脱离文档流，分别是：浮动，绝对定位和固定定位。
+
