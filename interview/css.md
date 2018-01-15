@@ -83,3 +83,5 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
 
 只有三种情况会使得元素脱离文档流，分别是：浮动，绝对定位和固定定位。
 
+
+
