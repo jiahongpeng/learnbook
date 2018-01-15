@@ -104,5 +104,5 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
   3.  父元素加上overflow:hidden
 ```
 
-5.
+5.伪元素
 
