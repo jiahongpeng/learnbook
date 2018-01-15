@@ -1,4 +1,4 @@
-1.css box model是什么？.//盒子模型
+父元1.css box model是什么？.//盒子模型
 
 元素的**外边距（margin）、边框（border）、内边距（padding）、内容（content）**就构成了CSS盒模型。
 
@@ -99,7 +99,7 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
       .divcss5-left{ float:left} 
       .divcss5-right{ float:right} 
       .clear{ clear:both}
-  3.  overflow:hidden
+  3.  父元素加上overflow:hidden
 ```
 
 
