@@ -12,11 +12,9 @@
 
 总宽度和总高度（包括外边距、边框、内边距、内容）=宽度+外边距；
 
-.triangle {
 
-width : 0;
 
-```
+```css
   height: 0;
 
   border : 100px solid transparent;
