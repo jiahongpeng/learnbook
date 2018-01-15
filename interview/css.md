@@ -13,14 +13,15 @@
 总宽度和总高度（包括外边距、边框、内边距、内容）=宽度+外边距；
 
 ```css
- .triangle {
+.triangle {
 width : 0;
  height: 0;
 
   border : 100px solid transparent;
 
   border-top : 100px solid red; /\*这里可以设置border的top、bottom、left、right四个方向的三角\*/
+  }
 ```
 
-}
+
 
