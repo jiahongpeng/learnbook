@@ -106,7 +106,7 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
         content: "020"; 
         display: block; 
         height: 0; 
-        clear: both; 
+        clear: both;
         visibility: hidden;  
         }
 
