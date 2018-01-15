@@ -8,9 +8,8 @@
    -webkit-box-sizing: content-box;
    -moz-box-sizing: content-box;
    box-sizing: content-box;
+   }
 ```
-
-}
 
 总宽度和总高度（包括外边距、边框、内边距、内容）=宽度+外边距；
 
