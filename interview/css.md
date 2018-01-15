@@ -85,7 +85,15 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
 
 4.float:是干嘛的 如何clear float? parent div如果child divs都是float 会有什么情况发生？（parent div collapse. use overflow:hidden 可以清除）
 
-      1.使用设置高度样式，清除浮动产生，前提是对象内容高度要能确定并能计算好。
+```
+  1.使用设置高度样式，清除浮动产生，前提是对象内容高度要能确定并能计算好。
 
-      2.
+  2.  <div class="divcss5"> 
+          <div class="divcss5-left">left浮动</div> 
+          <div class="divcss5-right">right浮动</div> 
+          <div class="clear"></div> 
+      </div> 
+```
+
+
 
