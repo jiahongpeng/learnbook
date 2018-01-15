@@ -4,11 +4,11 @@
 
 \*{
 
-       -webkit-box-sizing: content-box;
-
-       -moz-box-sizing: content-box;
-
-       box-sizing: content-box;
+```
+   -webkit-box-sizing: content-box;
+   -moz-box-sizing: content-box;
+   box-sizing: content-box;
+```
 
 }
 
