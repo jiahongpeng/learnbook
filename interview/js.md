@@ -12,11 +12,13 @@
 
 **2.How do you make a website faster?\*\*\*\*\*\***
 
+**http://blog.csdn.net/wxzking/article/details/4089384**
+
 **3.GET 和 POST区别\*\*\*\*\*\***
 
 4.what's cookie and how tow set it?
 
 5.what's iframe?
 
-6.what's csrf? 
+6.what's csrf?
 
