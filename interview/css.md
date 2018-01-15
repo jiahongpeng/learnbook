@@ -88,17 +88,17 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
 ```
   1.使用设置高度样式，清除浮动产生，前提是对象内容高度要能确定并能计算好。
 
-    2.  <div class="divcss5"> 
-          <div class="divcss5-left">left浮动</div> 
-          <div class="divcss5-right">right浮动</div> 
-          <div class="clear"></div> 
-        </div>
-        .divcss5{ width:400px;border:1px solid #F00;background:#FF0} 
-        .divcss5-left,.divcss5-right{width:180px;height:100px; 
-        border:1px solid #00F;background:#FFF} 
-        .divcss5-left{ float:left} 
-        .divcss5-right{ float:right} 
-        .clear{ clear:both}
+  2.  <div class="divcss5"> 
+        <div class="divcss5-left">left浮动</div> 
+        <div class="divcss5-right">right浮动</div> 
+        <div class="clear"></div> 
+      </div>
+      .divcss5{ width:400px;border:1px solid #F00;background:#FF0} 
+      .divcss5-left,.divcss5-right{width:180px;height:100px; 
+      border:1px solid #00F;background:#FFF} 
+      .divcss5-left{ float:left} 
+      .divcss5-right{ float:right} 
+      .clear{ clear:both}
 ```
 
 
