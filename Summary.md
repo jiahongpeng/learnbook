@@ -9,7 +9,7 @@
   * [运算符（Operators）](yun-suan-fu-ff08-operators.md)
 * [interview](interview.md)
   * [css](interview/css.md)
-  * js
-  * other
+  * [js](interview/js.md)
+  * [other](interview/other.md)
 * [h5](h5.md)
 
