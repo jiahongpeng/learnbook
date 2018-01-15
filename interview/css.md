@@ -134,3 +134,7 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
 
 6.!important干嘛用的?一般不建议用!important.
 
+7.css选择器优先级
+
+（外部样式）External style sheet &lt;（内部样式）Internal style sheet &lt;（内联样式）Inline style
+
