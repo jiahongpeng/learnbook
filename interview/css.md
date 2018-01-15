@@ -112,8 +112,8 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
         zoom: 1; 
       }
       <div class="news clearfix">
-      <img src="news-pic.jpg" />
-      <p>some text</p>
+        <img src="news-pic.jpg" />
+        <p>some text</p>
       </div>
 ```
 
