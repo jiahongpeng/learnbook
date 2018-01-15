@@ -123,3 +123,5 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
 
 5.伪元素
 
+**伪类用一个冒号来表示，而伪元素则用两个冒号来表示。**
+
