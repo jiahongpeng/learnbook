@@ -128,7 +128,7 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
  2.使用伪元素插入文本内容
  3.使用伪元素插入非文本内容/* 使用伪元素插入图片 注意：url里面的内容没有引号*/
  p:before{
-         content: url(image.jpg);
+   content: url(image.jpg);
  }
 ```
 
