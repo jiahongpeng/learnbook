@@ -123,3 +123,5 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
 
 放在目标元素的子元素的前面或后面
 
+使用伪元素插入文本内容
+
