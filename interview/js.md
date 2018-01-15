@@ -12,7 +12,7 @@
 
 2.How do you make a website faster?
 
-4.GET 和 POST区别
+3.GET 和 POST区别
 
-
+4.what's cookie and how tow set it?
 
