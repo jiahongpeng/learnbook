@@ -138,3 +138,5 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
 
 （外部样式）External style sheet &lt;（内部样式）Internal style sheet &lt;（内联样式）Inline style
 
+
+
