@@ -114,7 +114,6 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
         /* 触发 hasLayout */ 
         zoom: 1; 
       }
-
       <div class="news clearfix">
       <img src="news-pic.jpg" />
       <p>some text</p>
