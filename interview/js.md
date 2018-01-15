@@ -18,5 +18,5 @@
 
 5.what's iframe?
 
-6.what's csrf? \(其实不太长考但是最好知道，我大概被问了两次？\)
+6.what's csrf? 
 
