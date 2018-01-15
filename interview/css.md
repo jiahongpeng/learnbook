@@ -83,8 +83,5 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
 
 只有三种情况会使得元素脱离文档流，分别是：浮动，绝对定位和固定定位。
 
-4.float:是干嘛的 如何clear float? parent div如果child divs都是float 会有什么情况发生？（parent div collapse. use overflow:hidden 可以清除）  
-
-
-
+4.float:是干嘛的 如何clear float? parent div如果child divs都是float 会有什么情况发生？（parent div collapse. use overflow:hidden 可以清除）
 
