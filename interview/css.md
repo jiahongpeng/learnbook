@@ -138,5 +138,5 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
 
 （外部样式）External style sheet &lt;（内部样式）Internal style sheet &lt;（内联样式）Inline style
 
-
+如果**外部样式**放在**内部样式**的**后面**，则外部样式将覆盖内部样式
 
