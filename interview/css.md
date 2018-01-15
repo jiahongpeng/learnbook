@@ -2,13 +2,11 @@
 
 元素的**外边距（margin）、边框（border）、内边距（padding）、内容（content）**就构成了CSS盒模型。
 
-
-
 ```css
 *{
-   -webkit-box-sizing: content-box;
-   -moz-box-sizing: content-box;
-   box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
 }
 ```
 
