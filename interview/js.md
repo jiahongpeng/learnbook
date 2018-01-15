@@ -12,5 +12,7 @@
 
 2.How do you make a website faster?
 
+4.GET 和 POST区别
+
 
 
