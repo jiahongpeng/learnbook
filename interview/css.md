@@ -71,5 +71,57 @@ div {display:inline;}**
 **div { display:inline-block; \_zoom:1;\_display:inline;} /\*推荐\*/  
 div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
 
+3.  
+@font-face{  
+font-family:"Times New Roman";  
+}  
+  
+@font-face{  
+font-family:"宋体";  
+}  
+  
+@font-face{  
+font-family:"Calibri";  
+}  
+  
+@font-face{  
+font-family:"微软雅黑";  
+}  
+  
+p.MsoNormal{  
+mso-style-name:正文;  
+mso-style-parent:"";  
+margin:0pt;  
+margin-bottom:.0001pt;  
+mso-pagination:none;  
+text-align:justify;  
+text-justify:inter-ideograph;  
+font-family:Calibri;  
+mso-fareast-font-family:宋体;  
+mso-bidi-font-family:'Times New Roman';  
+font-size:10.5000pt;  
+mso-font-kerning:1.0000pt;  
+}  
+  
+span.msoIns{  
+mso-style-type:export-only;  
+mso-style-name:"";  
+text-decoration:underline;  
+text-underline:single;  
+color:blue;  
+}  
+  
+span.msoDel{  
+mso-style-type:export-only;  
+mso-style-name:"";  
+text-decoration:line-through;  
+color:red;  
+}  
+@page{mso-page-border-surround-header:no;  
+	mso-page-border-surround-footer:no;}@page Section0{  
+}  
+div.Section0{page:Section0;}
+
+position: relative, absolute, fixed 有什么区别  
 
 
