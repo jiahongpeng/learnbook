@@ -14,5 +14,5 @@
 
 3.GET 和 POST区别
 
-4.what's cookie and how tow set it?
+4.what's cookie and how tow set it?
 
