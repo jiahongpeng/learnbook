@@ -126,6 +126,7 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
 ```
  1.使用伪元素清除浮动。
  2.使用伪元素插入文本内容
+ 3.
 ```
 
 
