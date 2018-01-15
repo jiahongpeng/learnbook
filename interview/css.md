@@ -113,7 +113,7 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
       .clearfix {
         /* 触发 hasLayout */ 
         zoom: 1; 
-        }
+      }
 
       <div class="news clearfix">
       <img src="news-pic.jpg" />
@@ -126,6 +126,4 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
 伪类用一个冒号来表示，而伪元素则用两个冒号来表示。
 
 放在目标元素的子元素的前面或后面
-
-
 
