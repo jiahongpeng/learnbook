@@ -132,7 +132,5 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
  }
 ```
 
-6.!important干嘛用的?一般不建议用!important干嘛用的.
-
-
+6.!important干嘛用的?一般不建议用!important.
 
