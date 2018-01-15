@@ -101,7 +101,7 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
       .divcss5-left{ float:left} 
       .divcss5-right{ float:right} 
       .clear{ clear:both}
-  3.  父元素加上overflow:hidden;ie中加上zoom:1
+  3.  父元素加上overflow:hidden;IE中加上zoom:1
   4.  .clearfix:after{
         content: "020"; 
         display: block; 
