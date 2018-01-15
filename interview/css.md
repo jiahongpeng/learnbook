@@ -99,7 +99,7 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
       .divcss5-left{ float:left} 
       .divcss5-right{ float:right} 
       .clear{ clear:both}
-  3.
+  3.overflow:hidden
 ```
 
 
