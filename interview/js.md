@@ -1,4 +1,4 @@
-1.what will happen after I input an url in a browser and hit enter?
+**1.what will happen after I input an url in a browser and hit enter?\*\*\*\*\*\*\***
 
 第一步：客户机提出域名解析请求,并将该请求发送给本地的域名服务器。
 
@@ -10,9 +10,9 @@
 
 第五步：重复第四步,直到找到正确的纪录。
 
-2.How do you make a website faster?
+**2.How do you make a website faster?\*\*\*\*\*\***
 
-3.GET 和 POST区别
+**3.GET 和 POST区别\*\*\*\*\*\***
 
 4.what's cookie and how tow set it?
 
