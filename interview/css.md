@@ -73,3 +73,5 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
 
 3.position: relative, absolute, fixed 有什么区别
 
+
+
