@@ -103,7 +103,7 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
       .clear{ clear:both}
   3.  父元素加上overflow:hidden;IE中加上zoom:1
   4.  .clearfix:after{
-        content: "020"; 
+        content: ""; 
         display: block; 
         height: 0; 
         clear: both; 
