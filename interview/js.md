@@ -22,6 +22,8 @@ cookie 是存储于访问者的计算机中的变量。每当同一台计算机�
 
 cookie 是访问过的网站创建的文件，用于存储浏览信息，例如个人资料信息。
 
+
+
 [https://www.cnblogs.com/Darren\_code/archive/2011/11/24/Cookie.html\#!comments](https://www.cnblogs.com/Darren_code/archive/2011/11/24/Cookie.html#!comments)
 
 5.what's iframe?
