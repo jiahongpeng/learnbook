@@ -26,5 +26,7 @@ cookie 是存储于访问者的计算机中的变量。每当同一台计算机�
 
 7.javascript中call，apply，bind总结
 
+https://www.cnblogs.com/pssp/p/5215621.html
+
 
 
