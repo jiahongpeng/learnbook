@@ -24,3 +24,5 @@ cookie 是存储于访问者的计算机中的变量。每当同一台计算机�
 
 6.what's csrf?
 
+7.[JavaScript中call,apply,bind方法的总结。](http://www.cnblogs.com/pssp/p/5215621.html)
+
