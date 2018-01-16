@@ -16,13 +16,13 @@
 
 **3.GET 和 POST区别\*\*\*\*\*\***
 
-
-
 4.what's cookie and how tow set it?
 
 cookie 是存储于访问者的计算机中的变量。每当同一台计算机通过浏览器请求某个页面时，就会发送这个 cookie。你可以使用 JavaScript 来创建和取回 cookie 的值。
 
-https://www.cnblogs.com/Darren\_code/archive/2011/11/24/Cookie.html\#!comments
+cookie 是访问过的网站创建的文件，用于存储浏览信息，例如个人资料信息。
+
+[https://www.cnblogs.com/Darren\_code/archive/2011/11/24/Cookie.html\#!comments](https://www.cnblogs.com/Darren_code/archive/2011/11/24/Cookie.html#!comments)
 
 5.what's iframe?
 
