@@ -14,7 +14,9 @@
 
 [http://blog.csdn.net/wxzking/article/details/4089384](http://blog.csdn.net/wxzking/article/details/4089384)
 
+（1）尽量少的使用标签（越多加载的东西越多）
 
+（2）
 
 **3.GET 和 POST区别\*\*\*\*\*\***
 
