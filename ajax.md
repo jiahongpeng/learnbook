@@ -16,8 +16,7 @@
 
 ```
 <script>
-window.onload=function()
-{
+window.onload=function(){
     var oBtn = document.getElementById("btn1");
     oBtn.onclick = function(){
         //1.创建ajax对象
