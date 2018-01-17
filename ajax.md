@@ -62,6 +62,14 @@ window.onload=function(){
             {
                 if(oAjax.status==200)//判断是否成功,如果是200，就代表成功
                 {
+                     /*
+        ** Http状态码
+        ** 1xx ：信息展示
+        ** 2xx ：成功
+        ** 3xx ：重定向
+        ** 4xx : 客户端错误
+        ** 5xx ：服务器端错误
+        */
                     alert("成功"+oAjax.responseText);//读取a.txt文件成功就弹出成功。后面加上oAjax.responseText会输出a.txt文本的内容
                 }
                 else
