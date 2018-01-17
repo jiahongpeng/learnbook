@@ -10,6 +10,7 @@
 * [interview](interview.md)
   * [css](interview/css.md)
   * [js](interview/js.md)
+    * [How do you make a website faster?](interview/js/how-do-you-make-a-website-faster.md)
   * [other](interview/other.md)
 * [h5](h5.md)
 

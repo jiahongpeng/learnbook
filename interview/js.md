@@ -41,6 +41,10 @@ RequireJS
 
 SeaJS
 
+![](/assets/1016870-20171009133914402-2006851883.jpg)
+
+
+
 **3.GET 和 POST区别\*\*\*\*\*\***
 
 4.what's cookie and how tow set it?
