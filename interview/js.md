@@ -35,9 +35,9 @@
 
 （7）按需加载javascript
 
-require.js
+RequireJS
 
-seajs
+SeaJS
 
 （8）
 
