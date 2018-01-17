@@ -28,7 +28,6 @@ window.onload=function()
         //ie6浏览器下按照下面方法写,但是在别的浏览器中不能用，会报错。
         //var oAjax = new ActiveXObject("Microsoft.XMLHTTP");
         //alert(oAjax);
-
         //鉴于上面出现的问题，可以采取下面的方法解决，用if判断是否为IE6浏览器
         if(window.XMLHttpRequest)//如果有XMLHttpRequest，那就是非IE6浏览器。()里面加window的原因下面会有描述。
         {
@@ -38,7 +37,6 @@ window.onload=function()
         {
             var oAjax = new ActiveXObject("Microsoft.XMLHTTP");//IE6浏览器创建ajax对象
         }
-
         //2.连接服务器
         //open(方法、文件名、异步传输）
         //方法：
@@ -52,9 +50,7 @@ window.onload=function()
                 //同步：多件事一件一件的做
                 //异步：多件事情一起进行
         //ajax天生是用来做异步的
-
         oAjax.open("GET","a.txt?t='+new Date().getTime()",true);//加上t='+new Date().getTime()"的目的是为了消除缓存，每次的t的值不一样。
-
         //3.发送请求
         oAjax.send();
 
@@ -85,7 +81,6 @@ window.onload=function()
 
 /*//上面if里面需要些window的原因
 //js里面的变量和属性
-
 var a = 12;
 alert(a);//页面上弹出12很正常，而实际上输出的是下面的写法，是属于window的，只是window能省就省了。
 alert(window.a);//输出结果是一样的
@@ -95,10 +90,7 @@ window.alert(window.a);
 //如果不定义一个变量a直接像下面那样输出a
 alert(a)//系统会报错，而不是undefind，因为没有定义变量a。
 alert(window.a);//如果是这样写，系统就不会报错了，会显示undefind。
-
 //出现上面的原因是因为直接写a从根上就找不到a，而前面加上window只是找不到window的属性a了。*/
-
-
 </script>
 ```
 
