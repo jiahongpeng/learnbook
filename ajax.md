@@ -35,15 +35,15 @@ window.onload=function(){
         //2.连接服务器
         //open(方法、文件名、异步传输）
         //方法：
-            //传输方式是get方式还是post方式。
+        //传输方式是get方式还是post方式。
         //文件名
-            //告诉服务器要读哪个文件
+        //告诉服务器要读哪个文件
         //异步传输
-            //异步：多件事一件一件的做
-            //同步：多件事情一起进行
-            //但是js里面的同步和异步和现实的同步异步相反。
-                //同步：多件事一件一件的做
-                //异步：多件事情一起进行
+        //异步：多件事一件一件的做
+        //同步：多件事情一起进行
+        //但是js里面的同步和异步和现实的同步异步相反。
+        //同步：多件事一件一件的做
+        //异步：多件事情一起进行
         //ajax天生是用来做异步的
         oAjax.open("GET","a.txt?t='+new Date().getTime()",true);//加上t='+new Date().getTime()"的目的是为了消除缓存，每次的t的值不一样。
         //3.发送请求
@@ -85,6 +85,41 @@ window.alert(window.a);
 alert(a)//系统会报错，而不是undefind，因为没有定义变量a。
 alert(window.a);//如果是这样写，系统就不会报错了，会显示undefind。
 //出现上面的原因是因为直接写a从根上就找不到a，而前面加上window只是找不到window的属性a了。*/
+</script>
+
+
+<script>
+    //最后把代码封装起来,封装起来以后，要给这个函数加上一个参数url.参数是为了替换要读取的文件名
+function ajax(url,fnSucc)
+{
+    if(window.XMLHttpRequest)
+        {
+            var oAjax = new XMLHttpRequest();
+        }
+        else
+        {
+            var oAjax = new ActiveXObject("Microsoft.XMLHTTP");//IE6浏览器创建ajax对象
+        }
+        oAjax.open("GET",url,true);//把要读取的参数的传过来。
+        oAjax.send();
+        oAjax.onreadystatechange=function()
+        {
+            if(oAjax.readyState==4)
+            {
+                if(oAjax.status==200)
+                {
+                    fnSucc(oAjax.responseText);//成功的时候调用这个方法
+                }
+                else
+                {
+                    if(fnfiled)
+                    {
+                        fnField(oAjax.status);
+                    }
+                }
+            }
+        };
+}
 </script>
 ```
 
