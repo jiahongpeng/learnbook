@@ -25,11 +25,10 @@ window.onload=function()
         //只兼容非ie6的浏览器，在ie6浏览器上运行会提示没有被定义
         //var oAjax = new XMLHttpRequest();//这才是ajax实际的请求
         //alert(oAjax);
-        
         //ie6浏览器下按照下面方法写,但是在别的浏览器中不能用，会报错。
         //var oAjax = new ActiveXObject("Microsoft.XMLHTTP");
         //alert(oAjax);
-        
+
         //鉴于上面出现的问题，可以采取下面的方法解决，用if判断是否为IE6浏览器
         if(window.XMLHttpRequest)//如果有XMLHttpRequest，那就是非IE6浏览器。()里面加window的原因下面会有描述。
         {
@@ -39,7 +38,7 @@ window.onload=function()
         {
             var oAjax = new ActiveXObject("Microsoft.XMLHTTP");//IE6浏览器创建ajax对象
         }
-        
+
         //2.连接服务器
         //open(方法、文件名、异步传输）
         //方法：
@@ -53,12 +52,12 @@ window.onload=function()
                 //同步：多件事一件一件的做
                 //异步：多件事情一起进行
         //ajax天生是用来做异步的
-        
+
         oAjax.open("GET","a.txt?t='+new Date().getTime()",true);//加上t='+new Date().getTime()"的目的是为了消除缓存，每次的t的值不一样。
-        
+
         //3.发送请求
         oAjax.send();
-        
+
         //4.接收返回
         //客户端和服务器端有交互的时候会调用onreadystatechange
         oAjax.onreadystatechange=function()
