@@ -35,13 +35,11 @@
 
 （7）按需加载javascript
 
-https://www.cnblogs.com/mamimi/p/7646358.html
+[https://www.cnblogs.com/mamimi/p/7646358.html](https://www.cnblogs.com/mamimi/p/7646358.html)
 
 RequireJS
 
 SeaJS
-
-（8）
 
 **3.GET 和 POST区别\*\*\*\*\*\***
 
