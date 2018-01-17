@@ -15,5 +15,7 @@ CSS sprites 可帮助减少 HTTP 请求的数量。一个图像可以包含装�
 
 字体图标：[https://github.com/jiahongpeng/learnbook/blob/master/Font-Awesome-master.zip](https://github.com/jiahongpeng/learnbook/blob/master/Font-Awesome-master.zip)
 
-3.
+3.缓存一切可缓存的资源
+
+4.使用长cache
 
