@@ -93,9 +93,7 @@ alert(window.a);//如果是这样写，系统就不会报错了，会显示undef
     function ajax(url,fnSucc){
         if(window.XMLHttpRequest){
             var oAjax = new XMLHttpRequest();
-        }
-        else
-        {
+        }else{
             var oAjax = new ActiveXObject("Microsoft.XMLHTTP");//IE6浏览器创建ajax对象
         }
         oAjax.open("GET",url,true);//把要读取的参数的传过来。
