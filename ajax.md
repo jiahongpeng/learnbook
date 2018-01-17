@@ -129,7 +129,6 @@ alert(window.a);//如果是这样写，系统就不会报错了，会显示undef
             xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
             xhr.send(data);
         }
-
         // 处理返回数据
         xhr.onreadystatechange = function(){
             if(xhr.readyState == 4){
@@ -143,7 +142,6 @@ alert(window.a);//如果是这样写，系统就不会报错了，会显示undef
             }
         }
     }
-
     // 测试调用
     var sendData = {name:'asher',sex:'male'};
     Ajax('get', 'data/data.html', sendData, function(data){
