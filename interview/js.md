@@ -1,4 +1,4 @@
-**1.what will happen after I input an url in a browser and hit enter?\*\*\*\*\*\*\***
+**what will happen after I input an url in a browser and hit enter?\*\*\*\*\*\*\***
 
 第一步：客户机提出域名解析请求,并将该请求发送给本地的域名服务器。
 
