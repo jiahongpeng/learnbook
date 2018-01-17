@@ -31,9 +31,17 @@
     【2】减少图片大小，提升网页加载速度 \(多张图片加载速度小于拼合成的图片的加载速度\)
 ```
 
-字体图标：https://github.com/jiahongpeng/learnbook/blob/master/Font-Awesome-master.zip
+字体图标：[https://github.com/jiahongpeng/learnbook/blob/master/Font-Awesome-master.zip](https://github.com/jiahongpeng/learnbook/blob/master/Font-Awesome-master.zip)
 
 （7）按需加载javascript
+
+requirejs
+
+seajs
+
+
+
+
 
 （8）
 
