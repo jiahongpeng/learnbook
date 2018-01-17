@@ -14,7 +14,7 @@
 //3.发送请求（告诉服务器我要什么文件）  
 //4.接收返回值
 
-```
+```js
 <script>
 window.onload=function(){
     var oBtn = document.getElementById("btn1");
@@ -90,36 +90,36 @@ alert(window.a);//如果是这样写，系统就不会报错了，会显示undef
 
 <script>
     //最后把代码封装起来,封装起来以后，要给这个函数加上一个参数url.参数是为了替换要读取的文件名
-function ajax(url,fnSucc)
-{
-    if(window.XMLHttpRequest)
-        {
-            var oAjax = new XMLHttpRequest();
-        }
-        else
-        {
-            var oAjax = new ActiveXObject("Microsoft.XMLHTTP");//IE6浏览器创建ajax对象
-        }
-        oAjax.open("GET",url,true);//把要读取的参数的传过来。
-        oAjax.send();
-        oAjax.onreadystatechange=function()
-        {
-            if(oAjax.readyState==4)
+    function ajax(url,fnSucc)
+    {
+        if(window.XMLHttpRequest)
             {
-                if(oAjax.status==200)
+                var oAjax = new XMLHttpRequest();
+            }
+            else
+            {
+                var oAjax = new ActiveXObject("Microsoft.XMLHTTP");//IE6浏览器创建ajax对象
+            }
+            oAjax.open("GET",url,true);//把要读取的参数的传过来。
+            oAjax.send();
+            oAjax.onreadystatechange=function()
+            {
+                if(oAjax.readyState==4)
                 {
-                    fnSucc(oAjax.responseText);//成功的时候调用这个方法
-                }
-                else
-                {
-                    if(fnfiled)
+                    if(oAjax.status==200)
                     {
-                        fnField(oAjax.status);
+                        fnSucc(oAjax.responseText);//成功的时候调用这个方法
+                    }
+                    else
+                    {
+                        if(fnfiled)
+                        {
+                            fnField(oAjax.status);
+                        }
                     }
                 }
-            }
-        };
-}
+            };
+    }
 </script>
 ```
 
