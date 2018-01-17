@@ -98,8 +98,7 @@ alert(window.a);//如果是这样写，系统就不会报错了，会显示undef
         }
         oAjax.open("GET",url,true);//把要读取的参数的传过来。
         oAjax.send();
-        oAjax.onreadystatechange=function()
-        {
+        oAjax.onreadystatechange=function(){
             if(oAjax.readyState==4)
             {
                 if(oAjax.status==200)
