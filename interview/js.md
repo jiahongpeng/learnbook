@@ -35,13 +35,9 @@
 
 （7）按需加载javascript
 
-requirejs
+require.js
 
 seajs
-
-
-
-
 
 （8）
 
