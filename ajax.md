@@ -29,7 +29,7 @@ window.onload=function()
         //alert(oAjax);
         //鉴于上面出现的问题，可以采取下面的方法解决，用if判断是否为IE6浏览器
         if(window.XMLHttpRequest)//如果有XMLHttpRequest，那就是非IE6浏览器。()里面加window的原因下面会有描述。
-        {
+        
             var oAjax = new XMLHttpRequest();//创建ajax对象
         }
         else//如果没有XMLHttpRequest，那就是IE6浏览器
