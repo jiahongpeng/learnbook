@@ -19,8 +19,7 @@
 window.onload=function()
 {
     var oBtn = document.getElementById("btn1");
-    oBtn.onclick = function()
-    {
+    oBtn.onclick = function(){
         //1.创建ajax对象
         //只兼容非ie6的浏览器，在ie6浏览器上运行会提示没有被定义
         //var oAjax = new XMLHttpRequest();//这才是ajax实际的请求
