@@ -14,8 +14,6 @@
 //3.发送请求（告诉服务器我要什么文件）  
 //4.接收返回值
 
-
-
 ```
 <script>
 window.onload=function()
@@ -147,31 +145,20 @@ oBtn.onclick = function\(\)
     };
 
 }
+};
+/*//上面if里面需要些window的原因
+//js里面的变量和属性
+var a = 12;
+alert(a);//页面上弹出12很正常，而实际上输出的是下面的写法，是属于window的，只是window能省就省了。
+alert(window.a);//输出结果是一样的
+window.alert(window.a);
+//想a这种全局变量实际上是winow的一个属性。
+//如果不定义一个变量a直接像下面那样输出a
+alert(a)//系统会报错，而不是undefind，因为没有定义变量a。
+alert(window.a);//如果是这样写，系统就不会报错了，会显示undefind。
+//出现上面的原因是因为直接写a从根上就找不到a，而前面加上window只是找不到window的属性a了。*/
+</script>
 ```
 
-};
 
-/\*//上面if里面需要些window的原因
-
-//js里面的变量和属性
-
-var a = 12;
-
-alert\(a\);//页面上弹出12很正常，而实际上输出的是下面的写法，是属于window的，只是window能省就省了。
-
-alert\(window.a\);//输出结果是一样的
-
-window.alert\(window.a\);
-
-//想a这种全局变量实际上是winow的一个属性。
-
-//如果不定义一个变量a直接像下面那样输出a
-
-alert\(a\)//系统会报错，而不是undefind，因为没有定义变量a。
-
-alert\(window.a\);//如果是这样写，系统就不会报错了，会显示undefind。
-
-//出现上面的原因是因为直接写a从根上就找不到a，而前面加上window只是找不到window的属性a了。\*/
-
-&lt;/script&gt;
 
