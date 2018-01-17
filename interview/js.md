@@ -24,7 +24,7 @@
 
 （5）可以使用许多方法来优化您的网页，包括压缩 JavaScript 文件，使用超文本传输协议（Hypertext Transfer Protocol，HTTP）压缩，以及设置图像大小。
 
-（6）
+（6）压缩和缩小 JavaScript 文件
 
 **3.GET 和 POST区别\*\*\*\*\*\***
 
