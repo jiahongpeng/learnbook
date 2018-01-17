@@ -50,7 +50,6 @@ window.onload=function(){
         oAjax.open("GET","a.txt?t='+new Date().getTime()",true);//加上t='+new Date().getTime()"的目的是为了消除缓存，每次的t的值不一样。
         //3.发送请求
         oAjax.send();
-
         //4.接收返回
         //客户端和服务器端有交互的时候会调用onreadystatechange
         oAjax.onreadystatechange=function()
