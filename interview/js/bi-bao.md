@@ -146,10 +146,6 @@ setupHelp();
 ```
 
 ```
-var
-```
-
-```
 var name = "The Window";   
 var object = {
     name : "My Object",   
@@ -158,7 +154,6 @@ var object = {
             return this.name;   
         };   
     },
-
     getName:function(){
         alert(this.name);
     }   
