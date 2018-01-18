@@ -96,10 +96,6 @@ setupHelp();
 js（方法2）
 
 ```
-function
-```
-
-```
 function showHelp(help) {
   document.getElementById('help').innerHTML = help;
 }
