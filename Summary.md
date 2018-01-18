@@ -13,6 +13,7 @@
     * [css规范](interview/css/cssgui-fan.md)
   * [js](interview/js.md)
     * [How do you make a website faster?](interview/js/how-do-you-make-a-website-faster.md)
+    * [基础](interview/js/ji-chu.md)
   * [other](interview/other.md)
 * [h5](h5.md)
 
