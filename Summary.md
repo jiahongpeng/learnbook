@@ -14,6 +14,7 @@
   * [js](interview/js.md)
     * [How do you make a website faster?](interview/js/how-do-you-make-a-website-faster.md)
     * [基础](interview/js/ji-chu.md)
+    * [闭包](interview/js/bi-bao.md)
   * [other](interview/other.md)
 * [h5](h5.md)
 
