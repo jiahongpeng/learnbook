@@ -182,9 +182,7 @@ var that = this;
 alert(object.getNameFunc()());
 ```
 
-```
 
-```
 
 
 
