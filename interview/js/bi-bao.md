@@ -172,7 +172,7 @@ var name = "The Window";
 var object = {
     name : "My Object",
     getNameFunc : function(){
-        var that = this;   //
+        var that = this;   //而this指向object，所以that指向object。无论你执行多少次，他都是对object的引用，所以输出My Object
         return function(){
             return that.name;
         };
