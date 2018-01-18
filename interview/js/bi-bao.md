@@ -145,5 +145,27 @@ function setupHelp() {
 setupHelp();
 ```
 
+```
+var
+```
+
+```
+var name = "The Window";   
+var object = {
+    name : "My Object",   
+    getNameFunc : function(){   
+        return function(){   
+            return this.name;   
+        };   
+    },
+
+    getName:function(){
+        alert(this.name);
+    }   
+};   
+alert(object.getNameFunc()());  //The Window
+object.getName();  //My Object
+```
+
 
 
