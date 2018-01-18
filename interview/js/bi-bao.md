@@ -160,6 +160,11 @@ var object = {
 };   
 alert(object.getNameFunc()());  //The Window
 object.getName();  //My Object
+
+
+//解释
+var fn = object.getNameFunc();
+fn() // The Window 
 ```
 
 
