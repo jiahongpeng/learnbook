@@ -1,10 +1,5 @@
 ```
 CSS书写顺序
-```
-
-```
-
-
 位置属性(position, top, right, z-index, display, float等)
 
 
@@ -51,6 +46,11 @@ CSS书写顺序
 
 
 　　能良好区分JavaScript变量命名（JS变量命名是用“_”）
+
+```
+
+```
+
 ```
 
 
