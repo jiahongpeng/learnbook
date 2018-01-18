@@ -29,10 +29,6 @@ console.log(add10(2));// 12
 html:
 
 ```
-<
-```
-
-```
 <p id="help">Helpful notes will appear here</p>
 <p>E-mail: <input type="text" id="email" name="email"></p>
 <p>Name: <input type="text" id="name" name="name"></p>
