@@ -67,10 +67,6 @@ setupHelp();
 js（闭包方法1）
 
 ```
-function
-```
-
-```
 function showHelp(help) {
   document.getElementById('help').innerHTML = help;
 }
