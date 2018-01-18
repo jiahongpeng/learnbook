@@ -123,10 +123,6 @@ setupHelp();
 js（闭包方法3）
 
 ```
-function
-```
-
-```
 function showHelp(help) {
   document.getElementById('help').innerHTML = help;
 }
