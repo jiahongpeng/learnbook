@@ -164,7 +164,7 @@ object.getName();  //My Object
 
 //解释
 var fn = object.getNameFunc();
-fn() // The Window 
+fn() // The Window所以this指向全局
 ```
 
 
