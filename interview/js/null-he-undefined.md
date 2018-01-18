@@ -4,7 +4,7 @@
 
 （3）对象没有赋值的属性，该属性的值为undefined。
 
-（4）函数没有返回值时，默认返回undefined
+（4）函数没有返回值时，默认返回undefined。
 
 ```
 var i;
