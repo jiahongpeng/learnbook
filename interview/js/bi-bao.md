@@ -167,5 +167,20 @@ var fn = object.getNameFunc();
 fn() // The Window所以this指向全局
 ```
 
+var name = "The Window";
 
+　　var object = {  
+　　　　name : "My Object",
+
+　　　　getNameFunc : function\(\){  
+　　　　　　var that = this;  
+　　　　　　return function\(\){  
+　　　　　　　　return that.name;  
+　　　　　　};
+
+　　　　}
+
+　　};
+
+　　alert\(object.getNameFunc\(\)\(\)\);
 
