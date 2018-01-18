@@ -93,5 +93,5 @@ function setupHelp() {
 setupHelp();
 ```
 
-
+js（方法2）
 
