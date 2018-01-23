@@ -24,3 +24,5 @@ x.querySelector\("\#demo"\).innerHTML = "Hello World!";
 
 href=‘’；刷新当前页面
 
+href=‘\#’    跳转到当前页面的起始点
+
