@@ -26,3 +26,13 @@ href=‘’；刷新当前页面
 
 href=‘\#’    跳转到当前页面的起始点
 
+href=‘\#ch’    跳转到指定的锚点
+
+href=‘22332’    跳转到页面url为22332的页面
+
+href=‘javascript：void\(0\)’；   不做任何页面跳转
+
+href=‘javascript：void（f1\(\)）’     调用f1\(\)函数且不做任何页面跳转
+
+
+
