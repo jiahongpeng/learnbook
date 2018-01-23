@@ -1,4 +1,4 @@
-DOM对象分为三个部分
+原生查找元素的方法
 
-
+1.document.getElementById\('id'\);
 
