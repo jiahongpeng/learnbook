@@ -20,5 +20,7 @@ element.querySelectorAll\('.class'\)    //返回一个类对象
 
 var x = document.getElementById\("myDIV"\);
 
-    x.querySelector\("\#demo"\).innerHTML = "Hello World!";
+x.querySelector\("\#demo"\).innerHTML = "Hello World!";
+
+
 
