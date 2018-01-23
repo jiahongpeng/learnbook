@@ -18,3 +18,7 @@ node.setAttribute\('属性名'，‘属性值’\)；
 
 element.querySelectorAll\('.class'\)    //返回一个类对象
 
+var x = document.getElementById\("myDIV"\);
+
+    x.querySelector\("\#demo"\).innerHTML = "Hello World!";
+
