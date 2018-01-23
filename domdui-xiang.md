@@ -22,5 +22,5 @@ var x = document.getElementById\("myDIV"\);
 
 x.querySelector\("\#demo"\).innerHTML = "Hello World!";
 
-
+href=‘’；刷新当前页面
 
