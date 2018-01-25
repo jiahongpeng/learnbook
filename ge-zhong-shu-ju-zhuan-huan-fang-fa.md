@@ -102,7 +102,7 @@ var newArr = arr.filter(function(item){
         return item.name === "orange";
 });
 console.log("Filter results:",newArr);
-结果：[0:{name: "orange", count: 5}
+结果：[0:{name: "orange", count: 5},
       1:{name: "orange", count: 16}]
 ```
 
