@@ -28,5 +28,7 @@ varmyStr ="I,Love,you,Do,you,love,me";
 var index = myStr.lastIndexOf("you");// 14  从末尾开始查找，找到返回对应坐标，找不到返回-1
 ```
 
+5.字符串替换
 
+`var myStr = "I,love,you,Do,you,love,me";var replacedStr = myStr.replace("love","hate");//"I,hate,you,Do,you,love,me"`
 
