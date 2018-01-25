@@ -48,5 +48,7 @@ var myStr = "I,love,you,Do,you,love,me";
 var theChar = myStr.charCodeAt(8); //111
 ```
 
+7.字符串连接
+
 
 
