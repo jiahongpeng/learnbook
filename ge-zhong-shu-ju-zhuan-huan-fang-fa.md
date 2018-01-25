@@ -6,7 +6,8 @@ JSON 通常用于服务端向网页传递数据 。
 {"sites":[
     {"name":"Runoob","url":"www.runoob.com"},
     {"name":"Google","url":"www.google.com"},
-    {"name":"Taobao","url":"www.taobao.com"}]
+    {"name":"Taobao","url":"www.taobao.com"}
+    ]
 }
 ```
 
