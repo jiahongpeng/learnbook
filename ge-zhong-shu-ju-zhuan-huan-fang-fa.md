@@ -29,7 +29,7 @@ push\(\):把元素放入数组；
 ```
 var arr=new Array();
 //访问数组
-var a=arr[1];    
+var a=arr[0];
 ```
 
 
