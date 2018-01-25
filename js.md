@@ -96,11 +96,12 @@ var result = myStr.match(pattern);//["love"]
 console.log(result .index);//2
 console.log(result.input );//I,love,you,Do,you,love,me
 
-
-
+var myStr = "I,love,you,Do,you,love,me";
+var pattern = /love/;
+var result = pattern .exec(myStr);//["love"]
+console.log(result .index);//2
+console.log(result.input );//I,love,you,Do,you,love,me
 ```
-
-
 
 12.总结
 
