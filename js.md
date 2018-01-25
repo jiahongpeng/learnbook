@@ -6,7 +6,10 @@ num.toString\(\)，num.string\(\)
 
 2.字符串分割
 
-               var
+```
+var myStr = "I,Love,You,Do,you,love,me";
+mystr.split();
+```
 
 
 
