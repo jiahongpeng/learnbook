@@ -71,8 +71,12 @@ George,John,Thomas,James,Adrew,Martin
 George,John,William,Martin
 ```
 
+sort（）的用法
+
 ```
-sort()
+
+
+
 ```
 
 
