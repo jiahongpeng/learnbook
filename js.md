@@ -19,9 +19,7 @@ var myStr = "I,Love,You,Do,you,love,me";
 mystr.length;   //25
 ```
 
-4.查询字符串
-
-查询子字符
+4.查询子字符串
 
 
 
