@@ -32,6 +32,7 @@ var arr=new Array();
 var a=arr[0];
 //添加新元素
 arr[0]='我的';
+//数组元素的添加
 
 ```
 
