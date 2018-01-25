@@ -105,7 +105,6 @@ console.log("Filter results:",newArr);
 结果：[0:{name: "orange", count: 5},
       1:{name: "orange", count: 16}]
 
-
 循环foreach代替for
 var arr = [1,2,3,4,5,6,7,8];
 // Uses the usual "for" loop to iterate
