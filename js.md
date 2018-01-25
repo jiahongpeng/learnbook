@@ -141,3 +141,5 @@ console.log(unique(str));//ahgsj
 
 14.正则表达式
 
+
+
