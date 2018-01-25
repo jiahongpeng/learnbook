@@ -88,7 +88,17 @@ first = myStr.localeCompare("apple"); // 1
 
 11.字符串匹配（正则表达式）
 
+```
+var myStr = "chicken";
+var myStr = "I,love,you,Do,you,love,me";
+var pattern = /love/;
+var result = myStr.match(pattern);//["love"]
+console.log(result .index);//2
+console.log(result.input );//I,love,you,Do,you,love,me
 
+
+
+```
 
 
 
