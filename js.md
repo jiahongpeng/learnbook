@@ -68,3 +68,15 @@ var str = str1.concat(str2);//"I,love,you!Do,you,love,me?"
 
 `var myStr ="I,love,you,Do,you,love,me";varsubStr = myStr.substr(1,5);//",lov" 从1开始，一共5个`
 
+9.字符串大小写转换
+
+```
+var myStr = "I,Love,You,Do,you,love,me";
+var lowCaseStr = myStr.toLowerCase();//"i,love,you,do,you,love,me";
+var upCaseStr = myStr.toUpperCase();//"I,LOVE,YOU,DO,YOU,LOVE,ME"
+```
+
+
+
+
+
