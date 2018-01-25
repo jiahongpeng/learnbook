@@ -42,9 +42,10 @@ arr.splice\(\)的用法   向/从数组中添加/删除项目，然后返回被�
 
 ```
 (1)添加元素
-arr.splice(2,0,"William")
+arr.splice(2,0,"William")   //2是列值是2
 George,John,Thomas,James,Adrew,Martin
 George,John,William,Thomas,James,Adrew,Martin
+(2)
 ```
 
 
