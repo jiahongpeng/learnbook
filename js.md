@@ -12,5 +12,7 @@ mystr.split(',');   // ["I", "Love", "You", "Do", "you", "love", "me"];
 var arrayLimited = myStr .split(",", 3); // ["I", "Love", "You"];  //返回字符串的长度
 ```
 
+3.获取字符串长度
+
 
 
