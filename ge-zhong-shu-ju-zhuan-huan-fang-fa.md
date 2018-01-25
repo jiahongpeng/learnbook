@@ -115,6 +115,8 @@ console.log(arr[i]);
 arr.forEach(function(item,index){
 console.log(item);
 });
+
+
 ```
 
 
