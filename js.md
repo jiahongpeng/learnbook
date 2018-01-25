@@ -40,3 +40,5 @@ var index = myStr.lastIndexOf("you");// 14  从末尾开始查找，找到返回
 
 6.查找给定位置的字符或其字符编码值
 
+
+
