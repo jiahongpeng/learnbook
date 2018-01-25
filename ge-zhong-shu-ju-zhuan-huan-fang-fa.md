@@ -36,6 +36,8 @@ arr[0]='我的';
 arr.push('我的1')     //将一个或多个新元素添加到数组结尾，并返回数组新长度
 arr.unshift('我的2')      //将一个或多个新元素添加到数组开始，数组中的元素自动后移，返回数组新长度
 arr.splice('')     //将一个或多个新元素插入到数组的指定位置，插入位置的元素自动后移，返回""。
+//数组删除元素
+arr.pop()   //删除并返回最后一个元素
 ```
 
 arr.splice\(\)的用法   向/从数组中添加/删除项目，然后返回被删除的项目。改变原数组
@@ -54,7 +56,6 @@ George,John,William,James,Adrew,Martin
 (3)删除从 index 2 ("Thomas") 开始的三个元素，并添加一个新元素 ("William") 来替代被删除的元素
 George,John,Thomas,James,Adrew,Martin
 George,John,William,Martin
-
 ```
 
 
