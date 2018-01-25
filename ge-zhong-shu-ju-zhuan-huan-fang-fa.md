@@ -31,7 +31,7 @@ var arr=new Array();
 //访问数组
 var a=arr[0];
 //添加新元素
-arr[0]='我的'；
+arr[0]='我的';
 
 ```
 
