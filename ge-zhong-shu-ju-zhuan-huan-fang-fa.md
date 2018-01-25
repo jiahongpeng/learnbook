@@ -18,5 +18,5 @@ obj = JSON.parse(text);
 
 JSON.parse（）：字符串转化成json对象；
 
-JSON.stringify（）：JSON转化成字符串；
+JSON.stringify（）：JSON对象转化成字符串；
 
