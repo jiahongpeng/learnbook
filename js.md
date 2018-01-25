@@ -50,5 +50,13 @@ var theChar = myStr.charCodeAt(8); //111
 
 7.字符串连接
 
+```
+var str1 = "I,love,you!";
+var str2 = "Do,you,love,me?";
+var str = str1 + str2 + "Yes!";//"I,love,you!Do,you,love,me?Yes!"
+```
+
+
+
 
 
