@@ -89,6 +89,7 @@ first = myStr.localeCompare("apple"); // 1
 11.字符串匹配（正则表达式）
 
 ```
+//匹配的结果都是返回第一个匹配成功的字符串，如果匹配失败则返回null.
 var myStr = "chicken";
 var myStr = "I,love,you,Do,you,love,me";
 var pattern = /love/;
