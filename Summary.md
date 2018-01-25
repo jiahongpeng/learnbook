@@ -9,6 +9,7 @@
   * [运算符（Operators）](yun-suan-fu-ff08-operators.md)
   * [ajax](ajax.md)
   * [DOM对象](domdui-xiang.md)
+  * [各种数据类型转换方法](ge-zhong-shu-ju-zhuan-huan-fang-fa.md)
 * [interview](interview.md)
   * [css](interview/css.md)
     * [css规范](interview/css/cssgui-fan.md)
