@@ -25,10 +25,8 @@ mystr.length;   //25
 var myStr = "I,Love,You,Do,you,love,me";
 var index = myStr.indexOf("you"); // 7 ,基于0开始,找不到返回-1
 varmyStr ="I,Love,you,Do,you,love,me";
-var index = myStr.lastIndexOf("you");// 14
+var index = myStr.lastIndexOf("you");// 14  从末尾开始查找，找到返回对应坐标，找不到返回-1
 ```
-
-
 
 
 
