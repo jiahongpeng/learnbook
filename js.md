@@ -6,7 +6,7 @@ num.toString\(\)，num.string\(\)
 
 2.字符串分割
 
-           var
+               var
 
 
 
