@@ -38,3 +38,5 @@ var index = myStr.lastIndexOf("you");// 14  从末尾开始查找，找到返回
 
 `var myStr ="I,love,you,Do,you,love,me";var replacedStr = myStr.replace(/love/g,"hate");//"I,hate,you,Do,you,hate,me"`
 
+6.查找给定位置的字符或其字符编码值
+
