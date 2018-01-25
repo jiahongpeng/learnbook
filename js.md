@@ -14,5 +14,14 @@ var arrayLimited = myStr .split(",", 3); // ["I", "Love", "You"];  //返回字�
 
 3.获取字符串长度
 
+```
+var myStr = "I,Love,You,Do,you,love,me";
+mystr.length;   //25
+```
+
+4.查询字符串
+
+查询子字符
+
 
 
