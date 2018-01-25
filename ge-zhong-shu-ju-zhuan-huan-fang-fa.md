@@ -106,7 +106,7 @@ var newArr = arr.filter\(function\(item\){
 
 
 
-        console.log\("Filter results:",newArr\);
+        
 ```
 
 
