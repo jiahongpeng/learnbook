@@ -47,7 +47,14 @@ arr.splice\(\)的用法   向/从数组中添加/删除项目，然后返回被�
 arr.splice(2,0,"William")   //索引为2
 George,John,Thomas,James,Adrew,Martin
 George,John,William,Thomas,James,Adrew,Martin
-(2)
+(2)删除位于 index 2 的元素，并添加一个新元素来替代被删除的元素
+arr.splice(2,1,"William")
+George,John,Thomas,James,Adrew,Martin
+George,John,William,James,Adrew,Martin
+(3)删除从 index 2 ("Thomas") 开始的三个元素，并添加一个新元素 ("William") 来替代被删除的元素
+George,John,Thomas,James,Adrew,Martin
+George,John,William,Martin
+
 ```
 
 
