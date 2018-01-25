@@ -91,5 +91,29 @@ arr.sort(function(x,y){
 *****当x>y时，返回1，则交换a和b的位置（小的在前面），一直到全部都返回1*********
 ```
 
+var arr = \[
 
+			  {"name":"apple", "count": 2},
+
+			  {"name":"orange", "count": 5},
+
+			  {"name":"pear", "count": 3},
+
+			  {"name":"orange", "count": 16},
+
+			\];
+
+			   
+
+			var newArr = arr.filter\(function\(item\){
+
+			  return item.name === "orange";
+
+			}\);
+
+			 
+
+			 
+
+			console.log\("Filter results:",newArr\);
 
