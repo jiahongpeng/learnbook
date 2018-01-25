@@ -101,12 +101,7 @@ var arr = [
 var newArr = arr.filter\(function\(item\){
         return item.name === "orange";
 });
-
-
-
-
-
-        
+console.log\("Filter results:",newArr\);        
 ```
 
 
