@@ -20,9 +20,9 @@ JSON.parse（）：字符串转化成json对象；
 
 JSON.stringify（）：JSON对象转化成字符串；
 
-html.join\(''\)：join\(\) 方法用于把数组中的所有元素放入一个字符串；
+html.join\(''\)：join\(\) 方法用于把**数组**中的所有元素放入一个字符串；
 
-push\(\):把
+push\(\):把元素放入数组；
 
 
 
