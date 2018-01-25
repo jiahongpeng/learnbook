@@ -71,10 +71,20 @@ George,John,Thomas,James,Adrew,Martin
 George,John,William,Martin
 ```
 
-sort（）的用法
+sort（）的用法，改变的是原来的数组
 
 ```
-
+//比较大小：从小到大
+var arr=[0,20,1,2];
+arr.sort(function(x,y){
+    if(x<y){
+        return -1
+    }
+    if(x>y){
+        return 1
+    }
+    return 0
+})
 ```
 
 
