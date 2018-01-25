@@ -21,5 +21,11 @@ mystr.length;   //25
 
 4.查询子字符串
 
+```
+var myStr = "I,Love,You,Do,you,love,me";
+var index = myStr.indexOf("you"); // 7 ,基于0开始,找不到返回-1
+
+```
+
 
 
