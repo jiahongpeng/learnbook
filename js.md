@@ -76,7 +76,37 @@ var lowCaseStr = myStr.toLowerCase();//"i,love,you,do,you,love,me";
 var upCaseStr = myStr.toUpperCase();//"I,LOVE,YOU,DO,YOU,LOVE,ME"
 ```
 
+10.字符串比较
 
+```
+var myStr = "chicken";
+var myStrTwo = "egg";
+var first = myStr.localeCompare(myStrTwo); // -1
+first = myStr.localeCompare("chicken"); // 0
+first = myStr.localeCompare("apple"); // 1
+```
+
+11.
+
+12.总结
+
+```
+var myStr = "chicken";
+```
+
+```
+
+```
+
+`function getSuffix(file){return`
+
+`file.slice(file.lastIndexOf(`
+
+`"."`
+
+`) + 1,file.length);`
+
+`}`
 
 
 
