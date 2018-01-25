@@ -137,7 +137,6 @@ function getNewArr(){
     return item;
   });
 }
-
 console.log(getNewArr());
 ```
 
