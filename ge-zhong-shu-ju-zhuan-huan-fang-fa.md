@@ -113,7 +113,6 @@ for(var i= 0, l = arr.length; i< l; i++){
 console.log(arr[i]);
 }
 console.log("========================");
-//Uses forEach to iterate
 arr.forEach(function(item,index){
 console.log(item);
 });
