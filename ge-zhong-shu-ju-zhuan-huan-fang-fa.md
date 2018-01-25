@@ -26,7 +26,5 @@ push\(\):把元素放入数组；
 
 数组操作方法：
 
-var arr=new array\(\);
-
-
+        var arr=new array\(\);
 
