@@ -16,5 +16,5 @@ var text = '{ "sites" : [' +
 obj = JSON.parse(text);
 ```
 
-字符串转化成json对象
+yuyueAction\_consumptionDay字符串转化成json对象
 
