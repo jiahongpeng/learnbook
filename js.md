@@ -62,9 +62,9 @@ var str = str1.concat(str2);//"I,love,you!Do,you,love,me?"
 
 8.字符串切割和提取
 
-第一种 
+第一种
 
 `var myStr ="I,love,you,Do,you,love,me";varsubStr = myStr.slice(1,5);//",lov"从1到5`
 
-`var myStr ="I,love,you,Do,you,love,me";varsubStr = myStr.slice(1,5);//",lov"`
+`var myStr ="I,love,you,Do,you,love,me";varsubStr = myStr.slice(1,5);//",lov" 从1到5`
 
