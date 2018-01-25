@@ -125,21 +125,19 @@ file.slice(file.lastIndexOf(".") + 1,file.length);}
 //join方法用于将字符串数组连接成一个字符串 
 //如果把空字符串 ("") 用作 separator，那么 stringObject 中的每个字符之间都会被分割。 
 var str="aahhgggsssjjj";//这里字符串没有可以分隔的字符，所以需要使用空字符串作为分隔符 
-    function unique(msg){ 
-      var res=[]; 
-      var arr=msg.split(""); 
-      //console.log(arr); 
-      for(var i=0;i<arr.length;i++){ 
-        if(res.indexOf(arr[i])==-1){ 
-          res.push(arr[i]); 
-        } 
-      } 
+    function unique(msg){ 
+      var res=[]; 
+      var arr=msg.split(""); 
+      //console.log(arr); 
+      for(var i=0;i<arr.length;i++){ 
+        if(res.indexOf(arr[i])==-1){ 
+          res.push(arr[i]); 
+        } 
+      } 
     return res.join(""); 
 } 
-console.log(unique(str));//ahgsj   
+console.log(unique(str));//ahgsj
 ```
 
-
-
-
+14.正则表达式
 
