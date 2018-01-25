@@ -104,6 +104,21 @@ var newArr = arr.filter(function(item){
 console.log("Filter results:",newArr);
 结果：[0:{name: "orange", count: 5},
       1:{name: "orange", count: 16}]
+
+
+
+var arr = [1,2,3,4,5,6,7,8];
+// Uses the usual "for" loop to iterate
+for(var i= 0, l = arr.length; i< l; i++){
+console.log(arr[i]);
+}
+ 
+console.log("========================");
+ 
+//Uses forEach to iterate
+arr.forEach(function(item,index){
+console.log(item);
+});
 ```
 
 
