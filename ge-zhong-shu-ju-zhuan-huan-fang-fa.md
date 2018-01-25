@@ -129,7 +129,6 @@ function getNewArr(){
 }
 console.log(getNewArr());
 
-
 var oldArr = [{first_name:"Colin",last_name:"Toh"},{first_name:"Addy",last_name:"Osmani"},{first_name:"Yehuda",last_name:"Katz"}];
 function getNewArr(){
   return oldArr.map(function(item,index){
