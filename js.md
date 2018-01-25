@@ -86,7 +86,9 @@ first = myStr.localeCompare("chicken"); // 0
 first = myStr.localeCompare("apple"); // 1
 ```
 
-11.字符串匹配
+11.字符串匹配（正则表达式）
+
+
 
 
 
