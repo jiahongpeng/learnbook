@@ -92,21 +92,12 @@ first = myStr.localeCompare("apple"); // 1
 
 ```
 var myStr = "chicken";
+function getSuffix(file){return
+file.slice(file.lastIndexOf(
+"."
+) + 1,file.length);
+}
 ```
-
-```
-
-```
-
-`function getSuffix(file){return`
-
-`file.slice(file.lastIndexOf(`
-
-`"."`
-
-`) + 1,file.length);`
-
-`}`
 
 
 
