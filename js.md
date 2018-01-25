@@ -30,7 +30,11 @@ var index = myStr.lastIndexOf("you");// 14  从末尾开始查找，找到返回
 
 5.字符串替换
 
+替换第一个
+
 `var myStr = "I,love,you,Do,you,love,me";var replacedStr = myStr.replace("love","hate");//"I,hate,you,Do,you,love,me"`
+
+全局
 
 `var myStr ="I,love,you,Do,you,love,me";var replacedStr = myStr.replace(/love/g,"hate");//"I,hate,you,Do,you,hate,me"`
 
