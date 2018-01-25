@@ -28,6 +28,7 @@ push\(\):把元素放入数组；
 
 ```
     var arr=new Array();
+    
 ```
 
 
