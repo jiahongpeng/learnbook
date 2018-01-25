@@ -8,7 +8,8 @@ num.toString\(\)，num.string\(\)
 
 ```
 var myStr = "I,Love,You,Do,you,love,me";
-mystr.split(',');
+mystr.split(',');   // ["I", "Love", "You", "Do", "you", "love", "me"];
+var arrayLimited = myStr .split(",", 3); // ["I", "Love", "You"];
 ```
 
 
