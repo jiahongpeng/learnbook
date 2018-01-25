@@ -42,10 +42,11 @@ var index = myStr.lastIndexOf("you");// 14  从末尾开始查找，找到返回
 
 ```
 var myStr = "I,Love,You,Do,you,love,me";
-myStr.charAt(8);
+myStr.charAt(8);   //o
+//查找对应位置的字符编码值
+var myStr = "I,love,you,Do,you,love,me";
+var theChar = myStr.charCodeAt(8); //111
 ```
-
-
 
 
 
