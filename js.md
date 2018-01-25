@@ -103,7 +103,7 @@ var result = pattern .exec(myStr);//["love"]
 console.log(result .index);//2
 console.log(result.input );//I,love,you,Do,you,love,me
 
-仅返回查到的匹配的下标，如果匹配失败则返回-1.
+//仅返回查到的匹配的下标，如果匹配失败则返回-1.
 var myStr = "I,love,you,Do,you,love,me";
 var pattern = /love/;
 var result = myStr.search(pattern);//2
