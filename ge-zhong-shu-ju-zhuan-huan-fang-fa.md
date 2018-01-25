@@ -20,5 +20,7 @@ JSON.parse（）：字符串转化成json对象；
 
 JSON.stringify（）：JSON对象转化成字符串；
 
+join（）：join\(\) 方法用于把数组中的所有元素放入一个字符串。
+
 
 
