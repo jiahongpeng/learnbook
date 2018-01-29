@@ -82,7 +82,7 @@ list.insertBefore(haskell, ref);
     <p id="python">Python</p>
     <p id="scheme">Scheme</p>
 </div>
-//魂环
+//循环
 var i, c,
     list = document.getElementById('list');
 for (i = 0; i < list.children.length; i++) {
