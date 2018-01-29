@@ -69,8 +69,7 @@ document.getElementsByTagName('head')[0].appendChild(d);
     <p id="python">Python</p>
     <p id="scheme">Scheme</p>
 </div>
-var
-    list = document.getElementById('list'),
+var list = document.getElementById('list'),
     ref = document.getElementById('python'),
     haskell = document.createElement('p');
 haskell.id = 'haskell';
