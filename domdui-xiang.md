@@ -26,6 +26,21 @@ var x = document.getElementById\("myDIV"\);
 
 x.querySelector\("\#demo"\).innerHTML = "Hello World!";
 
+**插入DOM**
+
+```
+<p id="js">JavaScript</p>
+<div id="list">
+    <p id="java">Java</p>
+    <p id="python">Python</p>
+    <p id="scheme">Scheme</p>
+</div>
+```
+
+```
+
+```
+
 href=‘’；刷新当前页面
 
 href=‘\#’    跳转到当前页面的起始点
@@ -38,13 +53,13 @@ href=‘javascript：void\(0\)’；   不做任何页面跳转
 
 href=‘javascript：void（f1\(\)）’     调用f1\(\)函数且不做任何页面跳转
 
-window浏览器：浏览器窗口
+**window浏览器**：浏览器窗口
 
 window.innerHeight    window.innerWidth\(去处浏览器边框，菜单栏，工具栏\)
 
 window.outerHeight   window.outerWidth\(整个浏览器的宽高\)
 
-navigator：表示浏览器的信息
+**navigator**：表示浏览器的信息
 
 navigator.appName：浏览器名称；
 
@@ -91,4 +106,6 @@ history:保存了浏览器的历史记录，一般不用。用户体验不好
 history.back\(\)
 
 history.forward\(\)
+
+
 
