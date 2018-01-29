@@ -78,3 +78,9 @@ location.hash;  //'TOP'
 
 document:表示当前页面,由于HTML在浏览器中以DOM形式表示为树形结构，document对象就是整个DOM树的根节点。
 
+```
+document.cookie;
+```
+
+
+
