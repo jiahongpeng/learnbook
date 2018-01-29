@@ -63,6 +63,19 @@ var d = document.createElement('style');
 d.setAttribute('type', 'text/css');
 d.innerHTML = 'p { color: red }';
 document.getElementsByTagName('head')[0].appendChild(d);
+
+<div id="list">
+    <p id="java">Java</p>
+    <p id="python">Python</p>
+    <p id="scheme">Scheme</p>
+</div>
+var
+    list = document.getElementById('list'),
+    ref = document.getElementById('python'),
+    haskell = document.createElement('p');
+haskell.id = 'haskell';
+haskell.innerText = 'Haskell';
+list.insertBefore(haskell, ref);
 ```
 
 href=‘’；刷新当前页面
