@@ -35,10 +35,11 @@ x.querySelector\("\#demo"\).innerHTML = "Hello World!";
     <p id="python">Python</p>
     <p id="scheme">Scheme</p>
 </div>
-var
-    js = document.getElementById('js'),
+var js = document.getElementById('js'),
     list = document.getElementById('list');
 list.appendChild(js);
+//变成
+
 
 ```
 
