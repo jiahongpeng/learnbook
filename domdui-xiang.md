@@ -87,6 +87,25 @@ var i, c,list = document.getElementById('list');
 for (i = 0; i < list.children.length; i++) {
     c = list.children[i]; // 拿到第i个子节点
 }
+
+<ol id="test-list">
+    <li class="lang">Scheme</li>
+    <li class="lang">JavaScript</li>
+    <li class="lang">Python</li>
+    <li class="lang">Ruby</li>
+    <li class="lang">Haskell</li>
+</ol>
+var parent = document.querySelector('#test-list');
+var lis = parent.children;
+
+for(i = 0; i < lis.length - 1 ; i++) {
+    for (j = i + 1; j< lis.length; j++) {
+        if(lis[i].innerText > lis[j].innerText)
+        {
+           parent.insertBefore(lis[j], lis[i]);
+        }
+    }
+}
 ```
 
 href=‘’；刷新当前页面
