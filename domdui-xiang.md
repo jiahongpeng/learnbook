@@ -62,3 +62,5 @@ screen.width:表示屏幕的宽度
 
 screen.height:表示屏幕的高度
 
+screen.colordepth
+
