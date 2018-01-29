@@ -62,5 +62,18 @@ screen.width:表示屏幕的宽度
 
 screen.height:表示屏幕的高度
 
-screen.colordepth
+screen.colordepth:表示颜色位数
+
+location：当前页面url的信息
+
+```
+location.protocol; //'http'
+location.host;   //'www.example.com'
+location.port;   //'8080'
+location.pathname;  //'/path/index.html'
+location.search;   //'?a=1&b=2'
+location.hash;  //'TOP'
+```
+
+
 
