@@ -106,6 +106,13 @@ for(i = 0; i < lis.length - 1 ; i++) {
         }
     }
 }
+<ol id="test-list">
+			<li class="lang">Haskell</li><li class="lang">JavaScript</li><li class="lang">Python</li><li class="lang">Ruby</li><li class="lang">Scheme</li>
+			
+			
+			
+			
+		</ol>
 ```
 
 href=‘’；刷新当前页面
