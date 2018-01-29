@@ -46,9 +46,11 @@ navigator.appVersion:浏览器版本
 
 navigator.language:浏览器设置语言
 
+navigator.platform:操作系统类型
 
+navigator.userAgent:浏览器设定的User-Agent字符串
 
+`User-Agent`
 
-
-
+字符串。
 
