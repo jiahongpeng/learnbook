@@ -58,6 +58,11 @@ list.appendChild(haskell);
     <p id="scheme">Scheme</p>
     <p id="haskell">Haskell</p>
 </div>
+
+var d = document.createElement('style');
+d.setAttribute('type', 'text/css');
+d.innerHTML = 'p { color: red }';
+document.getElementsByTagName('head')[0].appendChild(d);
 ```
 
 href=‘’；刷新当前页面
