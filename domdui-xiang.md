@@ -83,8 +83,7 @@ list.insertBefore(haskell, ref);
     <p id="scheme">Scheme</p>
 </div>
 //循环
-var i, c,
-    list = document.getElementById('list');
+var i, c,list = document.getElementById('list');
 for (i = 0; i < list.children.length; i++) {
     c = list.children[i]; // 拿到第i个子节点
 }
