@@ -45,6 +45,13 @@ list.appendChild(js);
     <p id="scheme">Scheme</p>
     <p id="js">JavaScript</p>
 </div>
+
+var
+    list = document.getElementById('list'),
+    haskell = document.createElement('p');
+haskell.id = 'haskell';
+haskell.innerText = 'Haskell';
+list.appendChild(haskell);
 ```
 
 href=‘’；刷新当前页面
