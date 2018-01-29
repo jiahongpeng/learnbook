@@ -67,6 +67,7 @@ screen.colordepth:表示颜色位数
 location：当前页面url的信息
 
 ```
+location.href;
 http://www.example.com:8080/path/index.html?a=1&b=2#TOP
 location.protocol; //'http'
 location.host;   //'www.example.com'
