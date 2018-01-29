@@ -54,5 +54,5 @@ navigator.userAgent:浏览器设定的User-Agent字符串
 var width = window.innerWidth || document.body.clientWidth;
 ```
 
-screen:
+screen:对象表示屏幕的信息
 
