@@ -37,9 +37,7 @@ x.querySelector\("\#demo"\).innerHTML = "Hello World!";
 </div>
 ```
 
-```
 
-```
 
 href=‘’；刷新当前页面
 
@@ -106,6 +104,4 @@ history:保存了浏览器的历史记录，一般不用。用户体验不好
 history.back\(\)
 
 history.forward\(\)
-
-
 
