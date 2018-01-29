@@ -34,9 +34,21 @@ href=‘javascript：void\(0\)’；   不做任何页面跳转
 
 href=‘javascript：void（f1\(\)）’     调用f1\(\)函数且不做任何页面跳转
 
-
-
 浏览器
 
 window.innerHeight    window.innerWidth\(去处浏览器边框，菜单栏，工具栏\)
+
+window.outerHeight   window.outerWidth\(整个浏览器的宽高\)
+
+navigator.appName：浏览器名称；
+
+navigator.appVersion:浏览器版本
+
+navigator.language:浏览器设置语言
+
+
+
+
+
+
 
