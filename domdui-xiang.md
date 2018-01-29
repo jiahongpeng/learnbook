@@ -10,9 +10,9 @@
 
 node.setAttribute\('属性名'，‘属性值’\)；
 
-3.document.getElementByName\('name属性的值'\)   //返回的是类数组对象
+3.document.getElementsByName\('name属性的值'\)   //返回的是类数组对象
 
-4.document.getElementByClassName\('class'\)   //\(IE9以后\)  类数组对象
+4.document.getElementsByClassName\('class'\)   //\(IE9以后\)  类数组对象
 
 5.element.querySelector\('\#c'\)   //或者   .c   //返回一个对象
 
