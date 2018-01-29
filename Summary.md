@@ -19,6 +19,6 @@
     * [基础](interview/js/ji-chu.md)
     * [闭包](interview/js/bi-bao.md)
     * [null 和undefined](interview/js/null-he-undefined.md)
-  * [other](interview/other.md)
-* [h5](h5.md)
+  * [h5](h5.md)
+* [other](interview/other.md)
 
