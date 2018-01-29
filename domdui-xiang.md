@@ -82,5 +82,9 @@ document:表示当前页面,由于HTML在浏览器中以DOM形式表示为树形
 document.cookie;
 ```
 
+history:保存了浏览器的历史记录
 
+history.back\(\)
+
+history.forward\(\)
 
