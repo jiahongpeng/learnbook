@@ -36,7 +36,7 @@ href=‘javascript：void（f1\(\)）’     调用f1\(\)函数且不做任何�
 
 
 
+浏览器
 
-
-
+window.innerHeight    window.innerWidth\(去处浏览器边框，菜单栏，工具栏\)
 
