@@ -75,6 +75,12 @@ var list = document.getElementById('list'),
 haskell.id = 'haskell';
 haskell.innerText = 'Haskell';
 list.insertBefore(haskell, ref);
+<div id="list">
+    <p id="java">Java</p>
+    <p id="haskell">Haskell</p>
+    <p id="python">Python</p>
+    <p id="scheme">Scheme</p>
+</div>
 ```
 
 href=‘’；刷新当前页面
