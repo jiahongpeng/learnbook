@@ -39,11 +39,13 @@ var js = document.getElementById('js'),
     list = document.getElementById('list');
 list.appendChild(js);
 //变成
-
-
+<div id="list">
+    <p id="java">Java</p>
+    <p id="python">Python</p>
+    <p id="scheme">Scheme</p>
+    <p id="js">JavaScript</p>
+</div>
 ```
-
-
 
 href=‘’；刷新当前页面
 
