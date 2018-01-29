@@ -82,6 +82,12 @@ list.insertBefore(haskell, ref);
     <p id="python">Python</p>
     <p id="scheme">Scheme</p>
 </div>
+//魂环
+var i, c,
+    list = document.getElementById('list');
+for (i = 0; i < list.children.length; i++) {
+    c = list.children[i]; // 拿到第i个子节点
+}
 ```
 
 href=‘’；刷新当前页面
