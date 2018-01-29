@@ -40,7 +40,7 @@ window.innerHeight    window.innerWidth\(去处浏览器边框，菜单栏，工
 
 window.outerHeight   window.outerWidth\(整个浏览器的宽高\)
 
-表示浏览器的信息
+navigator表示浏览器的信息
 
 navigator.appName：浏览器名称；
 
