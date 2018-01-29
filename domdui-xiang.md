@@ -38,14 +38,13 @@ x.querySelector\("\#demo"\).innerHTML = "Hello World!";
 var js = document.getElementById('js'),
     list = document.getElementById('list');
 list.appendChild(js);
-//变成
+//变成:首先会从原先的位置删除，再插入到新的位置
 <div id="list">
     <p id="java">Java</p>
     <p id="python">Python</p>
     <p id="scheme">Scheme</p>
     <p id="js">JavaScript</p>
 </div>
-
 ```
 
 href=‘’；刷新当前页面
