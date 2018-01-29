@@ -58,3 +58,7 @@ var width = window.innerWidth || document.body.clientWidth;
 
 screen:对象表示屏幕的信息。
 
+screen.width:表示屏幕的宽度
+
+screen.height:表示屏幕的高度
+
