@@ -34,7 +34,7 @@ href=‘javascript：void\(0\)’；   不做任何页面跳转
 
 href=‘javascript：void（f1\(\)）’     调用f1\(\)函数且不做任何页面跳转
 
-浏览器
+浏览器：浏览器窗口
 
 window.innerHeight    window.innerWidth\(去处浏览器边框，菜单栏，工具栏\)
 
@@ -55,8 +55,4 @@ var width = window.innerWidth || document.body.clientWidth;
 ```
 
 screen:对象表示屏幕的信息。
-
-
-
-
 
