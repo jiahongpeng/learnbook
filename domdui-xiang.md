@@ -67,8 +67,7 @@ screen.colordepth:表示颜色位数
 location：当前页面url的信息
 
 ```
-location.href;
-http://www.example.com:8080/path/index.html?a=1&b=2#TOP
+location.href;   //http://www.example.com:8080/path/index.html?a=1&b=2#TOP
 location.protocol; //'http'
 location.host;   //'www.example.com'
 location.port;   //'8080'
@@ -77,5 +76,5 @@ location.search;   //'?a=1&b=2'
 location.hash;  //'TOP'
 ```
 
-
+document:表示当前页面,由于HTML在浏览器中以DOM形式表示为树形结构，document对象就是整个DOM树的根节点。
 
