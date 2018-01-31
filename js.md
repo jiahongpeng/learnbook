@@ -143,7 +143,7 @@ console.log(unique(str));//ahgsj
 
 \s：空格
 
-\d：数字
+\d：数字   \[0-9\] 
 
 {3,9}：3到9位
 
@@ -153,7 +153,13 @@ console.log(unique(str));//ahgsj
 
 /g：全局搜索
 
-\[a-zA-Z\]\[0-9\]
+\[a-zA-Z\]   \w
+
+
+
+
+
+
 
 15.时间操作
 
