@@ -144,21 +144,33 @@ console.log(unique(str));//ahgsj
 15.时间操作
 
 ```
-  var myDate = new Date();
-  myDate.getYear();        //获取当前年份(2位)
-  myDate.getFullYear();    //获取完整的年份(4位,1970-????)
-  myDate.getMonth();       //获取当前月份(0-11,0代表1月)
-  myDate.getDate();        //获取当前日(1-31)
-  myDate.getDay();         //获取当前星期X(0-6,0代表星期天)
-  myDate.getTime();        //获取当前时间(从1970.1.1开始的毫秒数)
-  myDate.getHours();       //获取当前小时数(0-23)
-  myDate.getMinutes();     //获取当前分钟数(0-59)
-  myDate.getSeconds();     //获取当前秒数(0-59)
-  myDate.getMilliseconds();    //获取当前毫秒数(0-999)
-  myDate.toLocaleDateString();     //获取当前日期
-  var mytime=myDate.toLocaleTimeString();     //获取当前时间
-  myDate.toLocaleString( );        //获取日期与时间
-  Date.parse()              //换算当前时间的毫秒数
+var myDate = new Date();
+myDate.getYear();        //获取当前年份(2位)
+myDate.getFullYear();    //获取完整的年份(4位,1970-????)
+myDate.getMonth();       //获取当前月份(0-11,0代表1月)
+myDate.getDate();        //获取当前日(1-31)
+myDate.getDay();         //获取当前星期X(0-6,0代表星期天)
+myDate.getTime();        //获取当前时间(从1970.1.1开始的毫秒数)
+myDate.getHours();       //获取当前小时数(0-23)
+myDate.getMinutes();     //获取当前分钟数(0-59)
+myDate.getSeconds();     //获取当前秒数(0-59)
+myDate.getMilliseconds();    //获取当前毫秒数(0-999)
+myDate.toLocaleDateString();     //获取当前日期
+var mytime=myDate.toLocaleTimeString();     //获取当前时间
+myDate.toLocaleString( );        //获取日期与时间
+Date.parse()              //换算当前时间的毫秒数
+//在某一时间段显示时间
+var timestart = '2015-09-05'; 
+var timeend = '2015-09-06';
+var time1 = (timestart+' 16:00:00').toString(); 
+var time2 = (timeend+' 16:00:00').toString(); 
+timestart = new Date(Date.parse(time1.replace(/-/g,"/"))).getTime(); 
+timeend = new Date(Date.parse(time2.replace(/-/g,"/"))).getTime();
+var nowtime=new Date().getTime();
+if (nowtime>timestart && nowtime<timeend)
+{
+document.write("广告");
+}
 ```
 
 
