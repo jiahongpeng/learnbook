@@ -158,7 +158,7 @@ console.log(unique(str));//ahgsj
   myDate.toLocaleDateString();     //获取当前日期
   var mytime=myDate.toLocaleTimeString();     //获取当前时间
   myDate.toLocaleString( );        //获取日期与时间
-  Date.parse()              //获取当前时间的毫秒数
+  Date.parse()              //换算当前时间的毫秒数
 ```
 
 
