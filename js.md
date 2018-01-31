@@ -143,7 +143,7 @@ console.log(unique(str));//ahgsj
 
 \s：空格
 
-\d：数字   \[0-9\] 
+\d：数字   \[0-9\]
 
 {3,9}：3到9位
 
@@ -155,7 +155,7 @@ console.log(unique(str));//ahgsj
 
 \[a-zA-Z\]   \w
 
-
+\*：
 
 
 
