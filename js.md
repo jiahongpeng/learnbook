@@ -177,13 +177,14 @@ var strDate = '2005-8-5';
 window.alert(strDate.replace(/\b(\w)\b/g, '0$1'));
 //间隔天数
 alert("间隔天数为:"+(new Date('2005/8/15')-new Date('2003/9/18'))/1000/60/60/24+"天")
+//间隔时分秒
 var d1=new Date("2004/09/16 20:08:00"); 
 var d2=new Date("2004/09/16 10:18:03"); 
 var d3=d1-d2; 
 var h=Math.floor(d3/3600000); 
 var m=Math.floor((d3-h*3600000)/60000); 
 var s=(d3-h*3600000-m*60000)/1000; 
-alert("相差"+h+"小时"+m+"分"+s+"秒"); 
+alert("相差"+h+"小时"+m+"分"+s+"秒");
 ```
 
 
