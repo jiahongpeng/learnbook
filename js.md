@@ -151,6 +151,8 @@ console.log(unique(str));//ahgsj
 
 \d$：以数字结尾
 
+/g：全局搜索
+
 15.时间操作
 
 ```
