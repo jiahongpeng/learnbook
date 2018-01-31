@@ -8,7 +8,7 @@ num.toString\(\)，num.string\(\)
 
 ```
 var myStr = "I,Love,You,Do,you,love,me";
-mystr.split(',');   // ["I", "Love", "You", "Do", "you", "love", "me"];
+mystr.split(',');   // ["I", "Love", "You", "Do", "you", "love", "me"];   
 var arrayLimited = myStr .split(",", 3); // ["I", "Love", "You"];  //返回字符串的长度
 ```
 
@@ -158,6 +158,7 @@ console.log(unique(str));//ahgsj
   myDate.toLocaleDateString();     //获取当前日期
   var mytime=myDate.toLocaleTimeString();     //获取当前时间
   myDate.toLocaleString( );        //获取日期与时间
+  Date.parse()              //获取当前时间的毫秒数
 ```
 
 
