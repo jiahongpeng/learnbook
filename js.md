@@ -185,6 +185,9 @@ var h=Math.floor(d3/3600000);
 var m=Math.floor((d3-h*3600000)/60000); 
 var s=(d3-h*3600000-m*60000)/1000; 
 alert("相差"+h+"小时"+m+"分"+s+"秒");
+//得到今天的日期
+d = new Date(); 
+alert(d.getFullYear()+"年"+(d.getMonth()+1)+"月"+d.getDate()+"日");
 ```
 
 
