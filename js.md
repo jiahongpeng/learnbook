@@ -174,7 +174,9 @@ if (nowtime>timestart && nowtime<timeend)
 
 //时间转化成2005-08-05
 var strDate = '2005-8-5'; 
-window.alert(strDate.replace(/\b(\w)\b/g, '0$1')); 
+window.alert(strDate.replace(/\b(\w)\b/g, '0$1'));
+//间隔天数
+alert("间隔天数为:"+(new Date('2005/8/15')-new Date('2003/9/18'))/1000/60/60/24+"天") 
 ```
 
 
