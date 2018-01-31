@@ -159,7 +159,7 @@ myDate.toLocaleDateString();     //获取当前日期
 var mytime=myDate.toLocaleTimeString();     //获取当前时间
 myDate.toLocaleString( );        //获取日期与时间
 Date.parse()              //换算当前时间的毫秒数
-//在某一时间段显示时间
+//在某一时间段显示广告
 var timestart = '2015-09-05'; 
 var timeend = '2015-09-06';
 var time1 = (timestart+' 16:00:00').toString(); 
@@ -169,7 +169,7 @@ timeend = new Date(Date.parse(time2.replace(/-/g,"/"))).getTime();
 var nowtime=new Date().getTime();
 if (nowtime>timestart && nowtime<timeend)
 {
-document.write("广告");
+    document.write("广告");
 }
 ```
 
