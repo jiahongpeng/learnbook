@@ -161,6 +161,8 @@ console.log(unique(str));//ahgsj
 
 ？:  匹配前面的子表达式零次或一次。例如，“`do(es)?`”可以匹配“`does`”或“`does`”中的“`do`”。?等价于{0,1}。
 
+http://tool.oschina.net/uploads/apidocs/jquery/regexp.html
+
 15.时间操作
 
 ```
