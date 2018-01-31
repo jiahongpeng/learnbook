@@ -171,6 +171,10 @@ if (nowtime>timestart && nowtime<timeend)
 {
     document.write("广告");
 }
+
+//时间转化成2005-08-05
+var strDate = '2005-8-5'; 
+window.alert(strDate.replace(/\b(\w)\b/g, '0$1')); 
 ```
 
 
