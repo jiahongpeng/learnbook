@@ -161,7 +161,9 @@ console.log(unique(str));//ahgsj
 
 ？:  匹配前面的子表达式零次或一次。例如，“`do(es)?`”可以匹配“`does`”或“`does`”中的“`do`”。?等价于{0,1}。
 
-http://tool.oschina.net/uploads/apidocs/jquery/regexp.html
+? : 当该字符紧跟在任何一个其他限制符（\*,+,?，{n}，{n,}，{n,m}）后面时，匹配模式是非贪婪的。非贪婪模式尽可能少的匹配所搜索的字符串，而默认的贪婪模式则尽可能多的匹配所搜索的字符串。例如，对于字符串“`oooo`”，“`o+?`”将匹配单个“`o`”，而“`o+`”将匹配所有“`o`”。
+
+[http://tool.oschina.net/uploads/apidocs/jquery/regexp.html](http://tool.oschina.net/uploads/apidocs/jquery/regexp.html)
 
 15.时间操作
 
