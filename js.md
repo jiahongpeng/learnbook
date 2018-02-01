@@ -163,6 +163,12 @@ console.log(unique(str));//ahgsj
 
 ? : 当该字符紧跟在任何一个其他限制符（\*,+,?，{n}，{n,}，{n,m}）后面时，匹配模式是非贪婪的。非贪婪模式尽可能少的匹配所搜索的字符串，而默认的贪婪模式则尽可能多的匹配所搜索的字符串。例如，对于字符串“`oooo`”，“`o+?`”将匹配单个“`o`”，而“`o+`”将匹配所有“`o`”。
 
+1，/g 表示该表达式将用来在输入字符串中查找所有可能的匹配，返回的结果可以是多个。如果不加/g最多只会匹配一个
+
+2，/i  表示匹配的时候不区分大小写
+
+3，/m 表示多行匹配，什么是多行匹配呢？就是匹配换行符两端的潜在匹配。影响正则中的^$符号
+
 [http://tool.oschina.net/uploads/apidocs/jquery/regexp.html](http://tool.oschina.net/uploads/apidocs/jquery/regexp.html)
 
 15.时间操作
