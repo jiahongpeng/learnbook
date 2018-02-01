@@ -264,8 +264,8 @@ form表单：
 上传图片
 
 ```
-var fileInput = document.getElementById('test-image-file'),
-    info = document.getElementById('test-file-info'),
+var fileInput = document.getElementById('test-image-file'),  //上传按钮
+    info = document.getElementById('test-file-info'),    //
     preview = document.getElementById('test-image-preview');
 // 监听change事件:
 fileInput.addEventListener('change', function () {
@@ -289,16 +289,13 @@ fileInput.addEventListener('change', function () {
     // 读取文件:
     var reader = new FileReader();
     reader.onload = function(e) {
-        var
-            data = e.target.result; // 'data:image/jpeg;base64,/9j/4AAQSk...(base64编码)...'            
+        var data = e.target.result; // 'data:image/jpeg;base64,/9j/4AAQSk...(base64编码)...'            
         preview.style.backgroundImage = 'url(' + data + ')';
     };
     // 以DataURL的形式读取文件:
     reader.readAsDataURL(file);
 });
 ```
-
-
 
 
 
