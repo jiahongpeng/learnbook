@@ -238,9 +238,24 @@ form表单：
         <button type="submit">提交</button> <button type="reset">重置</button>
     </p>
 </form>
+<script>
+    var name = document.getElementById('username').value;
+    var pwd1 = document.getElementById('password').value;
+    var pwd2 = document.getElementById('password-2').value;
+    if (/^[\w\d]{3,10}$/.test(name) === false) {
+        alert("用户名格式错误");
+        return false;
+    }
+    
+    if (pwd1 === pwd2 && pwd1.length < 12 && pwd1.length > 6) {
+        alert("成功");
+        return true;
+    }
+    alert("密码格式错误");
+    return false;
+    }
+</script>
 ```
-
-
 
 
 
