@@ -152,5 +152,5 @@ alert(window.a);//如果是这样写，系统就不会报错了，会显示undef
 </script>
 ```
 
-JSONP，它有个限制，只能用GET请求.
+JSONP，它有个限制，只能用GET请求。
 
