@@ -167,7 +167,7 @@ console.log(unique(str));//ahgsj
 
 2，/i  表示匹配的时候不区分大小写
 
-3，/m 表示多行匹配，
+3，/m 表示多行匹配
 
 [http://tool.oschina.net/uploads/apidocs/jquery/regexp.html](http://tool.oschina.net/uploads/apidocs/jquery/regexp.html)
 
