@@ -220,5 +220,27 @@ d = new Date();
 alert(d.getFullYear()+"年"+(d.getMonth()+1)+"月"+d.getDate()+"日");
 ```
 
+form表单：
+
+```
+<form id="test-register" action="#" target="_blank" onsubmit="return checkRegisterForm()">
+    <p id="test-error" style="color:red"></p>
+    <p>
+        用户名: <input type="text" id="username" name="username">
+    </p>
+    <p>
+        口令: <input type="password" id="password" name="password">
+    </p>
+    <p>
+        重复口令: <input type="password" id="password-2">
+    </p>
+    <p>
+        <button type="submit">提交</button> <button type="reset">重置</button>
+    </p>
+</form>
+```
+
+
+
 
 
