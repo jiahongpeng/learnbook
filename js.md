@@ -237,6 +237,9 @@ form表单：
     <p>
         <button type="submit">提交</button> <button type="reset">重置</button>
     </p>
+    
+    //md加密
+    <input type="hidden" id="md5-password" name="password">
 </form>
 <script>
     var name = document.getElementById('username').value;
@@ -246,7 +249,7 @@ form表单：
         alert("用户名格式错误");
         return false;
     }
-    
+
     if (pwd1 === pwd2 && pwd1.length < 12 && pwd1.length > 6) {
         alert("成功");
         return true;
