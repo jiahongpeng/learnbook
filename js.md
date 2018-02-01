@@ -237,9 +237,10 @@ form表单：
     <p>
         <button type="submit">提交</button> <button type="reset">重置</button>
     </p>
-    
+
     //md加密
     <input type="hidden" id="md5-password" name="password">
+    md5_pwd.value = toMD5(input_pwd.value);
 </form>
 <script>
     var name = document.getElementById('username').value;
