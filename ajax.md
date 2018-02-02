@@ -174,12 +174,15 @@ function ajax(method, url, data) {
         request.send(data);
     });
 }
+var log = document.getElementById('test-promise-ajax-result');
+var p = ajax('GET', '/api/categories');
+p.then(function (text) { // 如果AJAX成功，获得响应内容
+    log.innerText = text;
+}).catch(function (status) { // 如果AJAX失败，获得响应代码
+    log.innerText = 'ERROR: ' + status;
+});
 
 ```
-
-
-
-
 
 
 
