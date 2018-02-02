@@ -156,7 +156,6 @@ JSONP：它有个限制，只能用GET请求。
 
 ```
 'use strict';
-
 // ajax函数将返回Promise对象:
 function ajax(method, url, data) {
     var request = new XMLHttpRequest();
@@ -181,7 +180,6 @@ p.then(function (text) { // 如果AJAX成功，获得响应内容
 }).catch(function (status) { // 如果AJAX失败，获得响应代码
     log.innerText = 'ERROR: ' + status;
 });
-
 ```
 
 
