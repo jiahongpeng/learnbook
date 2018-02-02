@@ -154,3 +154,32 @@ alert(window.a);//如果是这样写，系统就不会报错了，会显示undef
 
 JSONP：它有个限制，只能用GET请求。
 
+```
+'use strict';
+
+// ajax函数将返回Promise对象:
+function ajax(method, url, data) {
+    var request = new XMLHttpRequest();
+    return new Promise(function (resolve, reject) {
+        request.onreadystatechange = function () {
+            if (request.readyState === 4) {
+                if (request.status === 200) {
+                    resolve(request.responseText);
+                } else {
+                    reject(request.status);
+                }
+            }
+        };
+        request.open(method, url);
+        request.send(data);
+    });
+}
+
+```
+
+
+
+
+
+
+
