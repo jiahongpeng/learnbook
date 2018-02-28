@@ -23,4 +23,5 @@
 * [other](interview/other.md)
 * [小程序](xiao-cheng-xu.md)
   * [app.json](xiao-cheng-xu/appjson.md)
+  * [小程序生命周期](xiao-cheng-xu/xiao-cheng-xu-sheng-ming-zhou-qi.md)
 
