@@ -21,4 +21,6 @@
     * [null 和undefined](interview/js/null-he-undefined.md)
   * [h5](h5.md)
 * [other](interview/other.md)
+* [小程序](xiao-cheng-xu.md)
+  * [app.json](xiao-cheng-xu/appjson.md)
 
