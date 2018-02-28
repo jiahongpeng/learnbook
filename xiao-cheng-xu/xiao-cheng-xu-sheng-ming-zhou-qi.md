@@ -1,3 +1,5 @@
+![](/assets/import.png)
+
 /\*\* \* 监听页面开在加载的状态 \* 页面加载完成之后就不会在执行 \*/
 
 onLoad: function \(\) { console.log\(
