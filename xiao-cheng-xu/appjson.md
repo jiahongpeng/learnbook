@@ -11,6 +11,7 @@
     "navigationBarTitleText": "豆瓣图书",
     "navigationBarTextStyle": "white"
   },
+  //设置底部tab
   "tabBar":{
     "backgroundColor":"#fff",
     "color":"#666",
