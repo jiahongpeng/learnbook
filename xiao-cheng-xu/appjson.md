@@ -1,4 +1,5 @@
 ```
+//设置标题栏
 {
   "pages": [
     "pages/index/index",
