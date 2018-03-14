@@ -68,8 +68,9 @@ onUnload: function\(\) { console.log\(
 
 wx.navigateTo会增加页面栈大小，直到页面栈大小为5
 
-* wx.redirectTo不会增加页面栈大小
-* wx.navigateBack会减少页面栈大小，直到页面栈大小为1
+wx.redirectTo不会增加页面栈大小
+
+wx.navigateBack会减少页面栈大小，直到页面栈大小为1
 
 
 
