@@ -12,3 +12,7 @@
 
 7.undefined
 
+typeOf\(\);
+
+
+

@@ -5,7 +5,7 @@
   * [web server](qian-yan/web-server.md)
 * [js基础](README.md)
   * [starting](staring.md)
-  * [数据类型（data types）](data-types.md)
+  * [数据类型（data types）及操作](data-types.md)
   * [运算符（Operators）](yun-suan-fu-ff08-operators.md)
   * [ajax](ajax.md)
   * [DOM对象](domdui-xiang.md)
