@@ -79,6 +79,15 @@ function unique5(array){
     } 
     return r; 
 }
+//利用Array.from将Set结构转换成数组
+function dedupe(array){
+ return Array.from(new Set(array));
+}
+dedupe([1,1,2,3]) //[1,2,3]
+//拓展运算符(...)内部使用for...of循环
+let arr = [1,2,3,3];
+let resultarr = [...new Set(arr)]; 
+console.log(resultarr); //[1,2,3]
 ```
 
 
