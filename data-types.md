@@ -57,7 +57,27 @@ if (array.indexOf(array[i]) == i) n.push(array[i]);
 } 
 return n; 
 }
-4.
+// 4.将相同的值相邻，然后遍历去除重复值 
+function unique4(array){ 
+array.sort(); 
+var re=[array[0]]; 
+for(var i = 1; i < array.length; i++){ 
+if( array[i] !== re[re.length-1]){ 
+  re.push(array[i]); 
+ } 
+ } 
+ return re; 
+} 
+// 5.思路：获取没重复的最右一值放入新数组 
+function unique5(array){ 
+var r = []; 
+for(var i = 0, l = array.length; i < l; i++) { 
+    for(var j = i + 1; j < l; j++) 
+    if (array[i] === array[j]) j = ++i; 
+    r.push(array[i]); 
+    } 
+    return r; 
+}
 ```
 
 
