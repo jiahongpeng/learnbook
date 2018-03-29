@@ -19,7 +19,7 @@ indexOf既能应用在字符串又能应用在数组，arr.indexOf('123'),如果
 **数组去重**
 
 ```
-// 最简单数组去重法 
+//1. 最简单数组去重法 
 function unique1(array){ 
     var n = []; //一个新的临时数组 
     //遍历当前数组 
@@ -30,6 +30,34 @@ function unique1(array){
     } 
     return n; 
 }
+//2. 速度最快， 占空间最多（空间换时间） 
+function unique2(array){ 
+    var n = {}, r = [], len = array.length, val, type; 
+    for (var i = 0; i < array.length; i++) { 
+        val = array[i]; 
+        type = typeof val; 
+        if (!n[val]) { 
+            n[val] = [type]; 
+            r.push(val); 
+        } else if (n[val].indexOf(type) < 0) { 
+            n[val].push(type); 
+            r.push(val); 
+        } 
+    } 
+    return r; 
+}
+//3.如果当前数组的第i项在当前数组中第一次出现的位置不是i，那么表示第i项是重复的，忽略掉。否则存入结果数组。
+function unique3(array){ 
+var n = [array[0]]; //结果数组 
+//从第二项开始遍历 
+for(var i = 1; i < array.length; i++) { 
+//如果当前数组的第i项在当前数组中第一次出现的位置不是i， 
+//那么表示第i项是重复的，忽略掉。否则存入结果数组 
+if (array.indexOf(array[i]) == i) n.push(array[i]); 
+} 
+return n; 
+}
+4.
 ```
 
 
