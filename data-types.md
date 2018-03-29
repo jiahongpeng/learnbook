@@ -8,3 +8,7 @@
 
 5.object（Everything in JavaScript is an object）
 
+6.null
+
+7.undefined
+
