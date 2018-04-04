@@ -19,6 +19,16 @@
     } 
     alert(userId); 
 </script>
+//设置过期时间
+<script language="JavaScript" type="text/javascript"> 
+    //获取当前时间 
+    var date=new Date(); 
+    var expiresDays=10; 
+    //将date设置为10天以后的时间 
+    date.setTime(date.getTime()+expiresDays*24*3600*1000); 
+    //将userId和userName两个cookie设置为10天后过期 
+    document.cookie="userId=828; userName=hulk; expires="+date.toGMTString(); 
+</script>
 ```
 
 
