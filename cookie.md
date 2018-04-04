@@ -1,6 +1,5 @@
 ```
 <script language="JavaScript" type="text/javascript"> 
-<!-- 
 //设置两个cookie 
 document.cookie="userId=828"; 
 document.cookie="userName=hulk"; 
@@ -19,7 +18,6 @@ break;
 } 
 } 
 alert(userId); 
-//--> 
 </script>
 ```
 
