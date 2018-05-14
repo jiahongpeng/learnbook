@@ -56,5 +56,13 @@ $ git diff readme.txt
 $ git log
 ```
 
+```
+$ git log --pretty=oneline   //只显示简单的记录
+```
+
+```
+$ cat readme.txt     //查看文件内容
+```
+
 
 
