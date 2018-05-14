@@ -52,3 +52,9 @@ $ git diff readme.txt
 
 `git log`命令查看提交的历史记录
 
+```
+$ git log
+```
+
+
+
