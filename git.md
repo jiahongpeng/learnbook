@@ -71,7 +71,7 @@ $ cat readme.txt     //查看文件内容
 
 ```
 $ git reset --hard HEAD^
-$ git reset --hard 版本号   
+$ git reset --hard 版本号
 ```
 
 
