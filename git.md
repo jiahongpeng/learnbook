@@ -40,5 +40,5 @@ $ git status
 # Changes not staged for commit:  //未提交的修改
 ```
 
-
+要用`git diff`这个命令查看修改的内容
 
