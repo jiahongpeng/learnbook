@@ -42,3 +42,9 @@ $ git status
 
 要用`git diff`这个命令查看修改的内容
 
+```
+$ git diff readme.txt 
+```
+
+
+
