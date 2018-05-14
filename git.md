@@ -44,6 +44,9 @@ $ git status
 
 ```
 $ git diff readme.txt
+
+git diff    #是工作区(work dict)和暂存区(stage)的比较
+git diff --cached    #是暂存区(stage)和分支(master)的比较
 ```
 
 要随时掌握工作区的状态，使用`git status`命令。
@@ -68,6 +71,7 @@ $ cat readme.txt     //查看文件内容
 
 ```
 $ git reset --hard HEAD^
+$ git reset --hard 版本号   
 ```
 
 
