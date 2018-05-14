@@ -50,5 +50,5 @@ $ git diff readme.txt
 
 如果`git status`告诉你有文件被修改过，用`git diff`可以查看修改内容。
 
-
+`git log`命令查看提交的历史记录
 
