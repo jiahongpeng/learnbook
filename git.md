@@ -9,12 +9,10 @@ Git本地仓库包含代码库还有历史库，在本地的环境开发就可�
 创建一个空文件夹
 
 ```
-$ mkdir learngit
-$ cd learngit
-$ pwd
+$ mkdir learngit  //创建文件夹
+$ cd learngit    //打开文件
+$ pwd   //显示当前目录
 ```
-
-
 
 
 
