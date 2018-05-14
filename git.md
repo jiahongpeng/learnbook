@@ -43,8 +43,12 @@ $ git status
 要用`git diff`这个命令查看修改的内容
 
 ```
-$ git diff readme.txt 
+$ git diff readme.txt
 ```
+
+要随时掌握工作区的状态，使用`git status`命令。
+
+如果`git status`告诉你有文件被修改过，用`git diff`可以查看修改内容。
 
 
 
