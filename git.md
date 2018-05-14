@@ -23,7 +23,7 @@ $ git init
 第一步，用命令`git add`告诉Git，把文件添加到仓库
 
 ```
-$ git add readme.txt
+$ git add readme.txt    //添加文件
 ```
 
 第二步，用命令`git commit`告诉Git，把文件提交到仓库
