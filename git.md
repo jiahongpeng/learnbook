@@ -32,5 +32,13 @@ $ git add readme.txt    //添加文件
 $ git commit -m "wrote a readme file"    //上传
 ```
 
+运行`git status`命令看看结果
+
+```
+$ git status
+# On branch master
+# Changes not staged for commit:  //未提交的修改
+```
+
 
 
