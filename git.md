@@ -73,6 +73,7 @@ $ cat readme.txt     //查看文件内容
 
 ```
 $ git reset --hard HEAD^
+$ git reset HEAD readme.txt
 $ git reset --hard 版本号
 ```
 
@@ -83,6 +84,4 @@ $ git reset --hard 版本号
 一种是`readme.txt`自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；
 
 一种是`readme.txt`已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。
-
-
 
