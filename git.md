@@ -89,6 +89,7 @@ $ git reset --hard 版本号
 ```
 $ rm test.txt    //删除工作区文件
 $ git commit -m testme.txt     //上传
+$ git checkout -- test.txt     //删错了  
 ```
 
 
