@@ -87,7 +87,8 @@ $ git reset --hard 版本号
 删除工作区文件
 
 ```
-$ rm test.txt
+$ rm test.txt    //删除工作区文件
+$ git commit -m testme.txt     //上传
 ```
 
 
