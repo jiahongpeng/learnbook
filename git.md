@@ -108,7 +108,6 @@ $ git push origin master   //push到版本库上
 
 ```
 $ git checkout -b dev
-
 Switched to a new branch 'dev'
 ```
 
