@@ -123,6 +123,8 @@ $ git commit -m "branch test"
 $ git checkout master
 //dev分支的工作成果合并到master分支上
 $ git merge dev
+//合并完成后，就可以放心地删除dev分支了
+$ git branch -d dev
 ```
 
 
