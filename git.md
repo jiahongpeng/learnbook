@@ -121,6 +121,8 @@ $ git add readme.txt
 $ git commit -m "branch test"
 //切换回master分支
 $ git checkout master
+//dev分支的工作成果合并到master分支上
+$ git merge dev
 ```
 
 
