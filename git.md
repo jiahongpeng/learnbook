@@ -112,6 +112,10 @@ Switched to a new branch 'dev'
 //相当于
 $ git branch dev   //创建
 $ git checkout dev   //分支切换到dev
+
+
+//查看分支
+$ git branch
 ```
 
 
