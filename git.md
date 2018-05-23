@@ -102,3 +102,15 @@ $ git push origin master   //push到版本库上
 
 此后，每次本地提交后，只要有必要，就可以使用命令`git push origin master`推送最新修改；
 
+**增加分支**
+
+1、我们创建`dev`分支，然后切换到`dev`分支：
+
+```
+$ git checkout -b dev
+
+Switched to a new branch 'dev'
+```
+
+
+
