@@ -119,8 +119,8 @@ $ git branch   //前面带 * 的是当前分支
 //修改之后
 $ git add readme.txt 
 $ git commit -m "branch test"
-
-
+//切换回master分支
+$ git checkout master
 ```
 
 
