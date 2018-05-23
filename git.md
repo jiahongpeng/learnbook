@@ -125,7 +125,14 @@ $ git checkout master
 $ git merge dev
 //合并完成后，就可以放心地删除dev分支了
 $ git branch -d dev
+```
 
+**解决冲突**
+
+```
+vi 文件名    //打开并编辑
+大写两个ZZ    //保存并退出
+:q         //强制退出
 ```
 
 
