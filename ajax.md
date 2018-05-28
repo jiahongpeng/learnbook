@@ -184,29 +184,6 @@ p.then(function (text) { // 如果AJAX成功，获得响应内容
 
 get 和 post请求的区别
 
-作者：silence
-
-  
-
-
-链接：https://www.zhihu.com/question/28586791/answer/153556269
-
-  
-
-
-来源：知乎
-
-  
-
-
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-
-  
-
-
-  
-
-
 **GET和POST长度的限制问题**
 
 GET
