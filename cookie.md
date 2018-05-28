@@ -39,5 +39,13 @@
 </script>
 ```
 
+https和http的主要区别：
 
+一、https协议需要到ca机构申请ssl证书。
+
+二、http是超文本传输协议，信息是明文传输，https 则是具有安全性的ssl加密传输协议。
+
+三、http和https使用的是完全不同的连接方式，用的端口也不一样，http是80端口，https是443端口。
+
+四、http的连接很简单，是无状态的;https协议是由ssl+http协议构建的可进行加密传输、身份认证的网络协议，比http协议安全。
 
