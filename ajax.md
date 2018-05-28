@@ -182,5 +182,5 @@ p.then(function (text) { // 如果AJAX成功，获得响应内容
 });
 ```
 
-
+get 和 post请求的区别
 
