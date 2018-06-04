@@ -61,5 +61,20 @@ function f({x, y, z}) { ... }
 f({z: 3, y: 2, x: 1});
 ```
 
+（4）提取 JSON 数据
+
+```
+let jsonData = {
+  id: 42,
+  status: "OK",
+  data: [867, 5309]
+};
+
+let { id, status, data: number } = jsonData;
+
+console.log(id, status, number);
+// 42, "OK", [867, 5309]
+```
+
 
 
