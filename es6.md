@@ -14,5 +14,5 @@ JavaScript 引擎内部会记住上一轮循环的值，初始化本轮的变量
 
 （4）不允许重复声明
 
-`var`命令和`function`命令
+`var`命令和`function`命令  `let`和`const`命令  `import`命令和`class`命令
 
