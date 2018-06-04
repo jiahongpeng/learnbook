@@ -1,4 +1,2 @@
-let和var的区别
-
-
+let和var的区别？
 
