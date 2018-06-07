@@ -160,5 +160,14 @@ s.includes('Hello', 6) // false
 '12'.padStart(10, 'YYYY-MM-DD') // "YYYY-MM-12"
 ```
 
+**模板字符串**
+
+    $('#list').html(`
+    <ul>
+      <li>${user.name}</li>
+      <li>${user.name}</li>
+    </ul>
+    `.trim());
+
 
 
