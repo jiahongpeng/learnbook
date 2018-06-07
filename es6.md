@@ -127,6 +127,10 @@ let s = 'Hello world!';
 s.startsWith('Hello') // true
 s.endsWith('!') // true
 s.includes('o') // true
+//这三个方法都支持第二个参数，表示开始搜索的位置。
+s.startsWith('world', 6) // true
+s.endsWith('Hello', 5) // true
+s.includes('Hello', 6) // false
 ```
 
 
