@@ -114,5 +114,9 @@ for (let [key, value] of map) {
 const { SourceMapConsumer, SourceNode } = require("source-map");
 ```
 
+**ES6中字符串常用方法**
+
+
+
 
 
