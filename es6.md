@@ -153,6 +153,11 @@ s.includes('Hello', 6) // false
 
 'x'.padEnd(5, 'ab') // 'xabab'
 'x'.padEnd(4, 'ab') // 'xaba'
+//没有第二个参数，直接用空格补齐
+'x'.padStart(4) // '   x'
+//常用
+'1'.padStart(10, '0') // "0000000001"
+
 ```
 
 
