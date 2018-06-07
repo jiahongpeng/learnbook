@@ -140,6 +140,8 @@ repeat方法返回一个新字符串，表示将原字符串重复n次。
 'x'.repeat(3) // "xxx"
 'hello'.repeat(2) // "hellohello"
 'na'.repeat(0) // ""
+//参数NaN等同于 0。
+'na'.repeat(NaN) // ""
 ```
 
 
