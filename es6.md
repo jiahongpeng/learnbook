@@ -134,7 +134,7 @@ s.endsWith('Hello', 5) // true
 s.includes('Hello', 6) // false
 ```
 
-repeat方法返回一个新字符串，表示将原字符串重复n次。
+**repeat**方法返回一个新字符串，表示将原字符串重复n次。
 
 ```
 'x'.repeat(3) // "xxx"
@@ -142,6 +142,17 @@ repeat方法返回一个新字符串，表示将原字符串重复n次。
 'na'.repeat(0) // ""
 //参数NaN等同于 0。
 'na'.repeat(NaN) // ""
+```
+
+如果某个字符串不够指定长度，会在头部或尾部补全。`padStart()`用于头部补全，`padEnd()`用于尾部补全。
+
+```
+//第一个参数用来指定字符串的最小长度，第二个参数是用来补全的字符串。
+'x'.padStart(5, 'ab') // 'ababx'
+'x'.padStart(4, 'ab') // 'abax'
+
+'x'.padEnd(5, 'ab') // 'xabab'
+'x'.padEnd(4, 'ab') // 'xaba'
 ```
 
 
