@@ -157,7 +157,7 @@ s.includes('Hello', 6) // false
 'x'.padStart(4) // '   x'
 //常用
 '1'.padStart(10, '0') // "0000000001"
-
+'12'.padStart(10, 'YYYY-MM-DD') // "YYYY-MM-12"
 ```
 
 
