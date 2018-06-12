@@ -90,6 +90,12 @@ jQuery.ajax = function (url, {
 } = {}) {
   // ... do stuff
 };
+
+function fetch(url, { body = '', method = 'GET', headers = {} } = {}) {
+  console.log(method);
+}
+
+fetch('http://example.com')
 ```
 
 （6）遍历 Map 结构
