@@ -95,6 +95,12 @@ function fetch(url, { body = '', method = 'GET', headers = {} } = {}) {
   console.log(method);
 }
 fetch('http://example.com')
+
+function foo(x = 5, y = 6) {
+  console.log(x, y);
+}
+foo(undefined, null)
+// 5 null
 ```
 
 （6）遍历 Map 结构
