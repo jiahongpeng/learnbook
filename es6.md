@@ -204,8 +204,7 @@ s.includes('Hello', 6) // false
 (function (a) {}).length // 1
 (function (a = 5) {}).length // 0
 (function (a, b, c = 5) {}).length // 2
-
-
+//如果设置了默认值的参数不是尾参数，那么length属性也不再计入后面的参数了。
 ```
 
 
