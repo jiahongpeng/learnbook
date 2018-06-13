@@ -197,5 +197,16 @@ s.includes('Hello', 6) // false
     //
     // </table>
 
+**函数的length属性**
+
+```
+//length属性的含义是，该函数预期传入的参数个数。某个参数指定默认值以后，预期传入的参数个数就不包括这个参数了
+(function (a) {}).length // 1
+(function (a = 5) {}).length // 0
+(function (a, b, c = 5) {}).length // 2
+
+
+```
+
 
 
