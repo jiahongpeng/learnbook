@@ -135,5 +135,43 @@ vi 文件名    //打开并编辑
 :q         //强制退出
 ```
 
+ls：查看在哪个文件夹
+
+git clone 链接    克隆下代码
+
+git branch  ：查看分支
+
+在文件夹内 输入 git checkout -b 分支名字 创建分支
+
+git add .   添加全部修改
+
+git status  查看添加状态信息
+
+git commit -m 'hometab'    提交到本地库
+
+git push --set-upstream origin homemodel    提交到版本库
+
+git branch   查看分支
+
+git checkout master   切换到主分支
+
+git branch  查看分支
+
+git pull   首先在主分支上拉代码，
+
+git checkout homemodel 切换到homemodel分支上
+
+git rabase master    然后再从主分支上拉到  homemodel 分支上
+
+git branch   查看分支
+
+
+
+
+
+ 
+
+
+
 
 
