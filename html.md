@@ -8,11 +8,9 @@ ul 无序
 
 ol 有序
 
-dl 定义列表    
+dl 定义列表   &lt;dt&gt;标题&lt;/dt&gt;   &lt;dd&gt;内容&lt;/dd&gt;
 
 thead 表格中的表头内容
 
 tbody 表格中的主体内容
-
-
 
