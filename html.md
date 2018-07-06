@@ -37,6 +37,8 @@ video
 
 [http://www.css88.com/archives/166](http://www.css88.com/archives/1668)
 
+https://www.cnblogs.com/nanshanlaoyao/p/6402721.html   \(SEO优化\)
+
 1. **去掉或样式丢失的时候能让页面呈现清晰的结构**
 2. 浏览器的默认样式和语义化的HTML结构是不可分割的
 3. html语义化让页面的内容结构化，结构更清晰，便于对浏览器，搜索引擎解析
@@ -48,8 +50,4 @@ video
    SEO（Search Engine Optimization）翻译为搜索引擎优化。seo是专门利用搜索引擎的搜索规则来提高目前网站在有关搜索引擎内的自然排名的方式。
 
 2.http 加载过程
-
-
-
-
 
