@@ -166,9 +166,7 @@ E  在同一组属性设置中标有“!important”规则的优先级最大；
 
 （1）水平居中
 
-        行内元素
-
-         
+    行内元素
 
 ```
 .center-text{
@@ -176,15 +174,21 @@ E  在同一组属性设置中标有“!important”规则的优先级最大；
 }
 ```
 
+      块级元素水平居中
+
+```
+.center-block {
+    margin: 0 auto;
+}
+```
+
 （2）垂直居中
 
-1     display: flex; justify-content:center;  align-items:Center;
+1     display: flex; justify-content:center;  align-items:Center;
 
-2     float:left; position:relative; right:50%;
+2     float:left; position:relative; right:50%;
 
-3     display: table-cell;  vertical-align: middle;  text-align: center;   
+3     display: table-cell;  vertical-align: middle;  text-align: center;
 
-4   position: absolute; left: 50%; top: 50%; transform: translate\(-50%,-50%\);
-
-
+4   position: absolute; left: 50%; top: 50%; transform: translate\(-50%,-50%\);
 
