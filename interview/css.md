@@ -250,7 +250,7 @@ vertical-align:middle
     justify-content: center;
     align-items: center;
 }
-//利用grid
+//利用grid（不推荐）
 .parent {
   height: 140px;
   display: grid;
