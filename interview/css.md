@@ -166,6 +166,8 @@ E  在同一组属性设置中标有“!important”规则的优先级最大；
 
 8.居中
 
+http://blog.51cto.com/12917919/2090808
+
 （1）水平居中
 
 行内元素
@@ -232,7 +234,6 @@ vertical-align:middle
     flex-direction: column;
     justify-content: center;
 }
-
 ```
 
 1     display: flex; justify-content:center;  align-items:Center;
