@@ -117,6 +117,12 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
       </div>
 ```
 
+https://www.cnblogs.com/nxl0908/p/7245460.html
+
+
+
+
+
 5.伪元素
 
 伪类用一个冒号来表示，而伪元素则用两个冒号来表示。
@@ -159,6 +165,4 @@ C  创作者的规则高于浏览者：即网页编写者设置的CSS 样式的�
 D  继承的CSS 样式不如后来指定的CSS 样式；
 
 E  在同一组属性设置中标有“!important”规则的优先级最大；
-
-
 
