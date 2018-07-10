@@ -250,6 +250,12 @@ vertical-align:middle
     justify-content: center;
     align-items: center;
 }
+.parent {
+    position: absolute; 
+    left: 50%; top: 50%; 
+    transform: translate(-50%,-50%);
+}
+
 //利用grid（不推荐）
 .parent {
   height: 140px;
@@ -258,13 +264,35 @@ vertical-align:middle
 .child { 
   margin: auto;
 }
+//水平垂直居中
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    background: #2b2b2b;
+    color:#fff;
+    padding: 2rem;
+    max-width: 320px;
+}
+<div class="outer">
+    <div class="middle">
+        <div class="inner">
+            <p>一个好的程序员应该是那种过单行线都要往两边看的人。</p>
+        </div>
+    </div>
+</div>
+
+
 ```
 
-1     display: flex; justify-content:center;  align-items:Center;
 
-2     float:left; position:relative; right:50%;
-
-3     display: table-cell;  vertical-align: middle;  text-align: center;
-
-4   position: absolute; left: 50%; top: 50%; transform: translate\(-50%,-50%\);
 
