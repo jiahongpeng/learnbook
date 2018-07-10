@@ -196,7 +196,6 @@ E  在同一组属性设置中标有“!important”规则的优先级最大；
     justify-content: center;
 }
 //方法4
-
 ```
 
 （2）垂直居中
@@ -209,6 +208,31 @@ vertical-align:middle
     height: 120px;
     line-height: 120px;
 }
+//固定高度的块级元素
+.parent {
+  position: relative;
+}
+.child {
+  position: absolute;
+  top: 50%;
+  height: 100px;
+  margin-top: -50px; 
+}
+//子元素高度不确定
+.center-table {
+    display: table;
+}
+.v-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+//子元素不确定高度    
+.center-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 ```
 
 1     display: flex; justify-content:center;  align-items:Center;
