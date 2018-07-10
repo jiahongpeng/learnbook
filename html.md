@@ -49,7 +49,7 @@ video
 
    SEO（Search Engine Optimization）翻译为搜索引擎优化。seo是专门利用搜索引擎的搜索规则来提高目前网站在有关搜索引擎内的自然排名的方式。
 
-2. http 加载过程
+2.http 加载过程
 
 浏览器渲染页过程描述
 
