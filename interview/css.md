@@ -176,13 +176,28 @@ E  在同一组属性设置中标有“!important”规则的优先级最大；
 }
 ```
 
-  块级元素水平居中
+块级元素水平居中
 
 ```
+//方法一
 .center-block {
     margin: 0 auto;
 }
+//方法二
+.container {
+    text-align: center;
+}
+.inline-block {
+    display: inline-block;
+}
+//方法三
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
 ```
+
+
 
 （2）垂直居中
 
