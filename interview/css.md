@@ -195,11 +195,21 @@ E  在同一组属性设置中标有“!important”规则的优先级最大；
     display: flex;
     justify-content: center;
 }
+//方法4
+
 ```
 
-
-
 （2）垂直居中
+
+```
+//行内元素
+vertical-align:middle
+//已知父元素高度
+#v-box {
+    height: 120px;
+    line-height: 120px;
+}
+```
 
 1     display: flex; justify-content:center;  align-items:Center;
 
