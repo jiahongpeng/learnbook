@@ -37,7 +37,7 @@ video
 
 [http://www.css88.com/archives/166](http://www.css88.com/archives/1668)
 
-https://www.cnblogs.com/nanshanlaoyao/p/6402721.html   \(SEO优化\)
+[https://www.cnblogs.com/nanshanlaoyao/p/6402721.html](https://www.cnblogs.com/nanshanlaoyao/p/6402721.html)   \(SEO优化\)
 
 1. **去掉或样式丢失的时候能让页面呈现清晰的结构**
 2. 浏览器的默认样式和语义化的HTML结构是不可分割的
@@ -50,4 +50,30 @@ https://www.cnblogs.com/nanshanlaoyao/p/6402721.html   \(SEO优化\)
    SEO（Search Engine Optimization）翻译为搜索引擎优化。seo是专门利用搜索引擎的搜索规则来提高目前网站在有关搜索引擎内的自然排名的方式。
 
 2.http 加载过程
+
+3. 浏览器渲染页过程描述
+
+    1. 浏览器解析html源码，然后创建一个DOM树。
+
+    2. 浏览器解析CSS代码，计算出最终的样式数据。
+
+    3. 创建完DOM树并得到最终的样式数据之后，构建一个渲染树。
+
+    4. 当渲染树创建完成之后，浏览器就可以根据渲染树直接把页面绘制到屏幕上。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
