@@ -243,6 +243,21 @@ vertical-align:middle
     top: 50%;
     transform: translateY(-50%);
 }
+
+//垂直居中（父元素）
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+//利用grid
+.parent {
+  height: 140px;
+  display: grid;
+}
+.child { 
+  margin: auto;
+}
 ```
 
 1     display: flex; justify-content:center;  align-items:Center;
