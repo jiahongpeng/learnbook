@@ -117,11 +117,7 @@ div { display:inline-block; \_zoom:1;\*display:inline;} /\*推荐:IE67\*/**
       </div>
 ```
 
-https://www.cnblogs.com/nxl0908/p/7245460.html
-
-
-
-
+[https://www.cnblogs.com/nxl0908/p/7245460.html](https://www.cnblogs.com/nxl0908/p/7245460.html)
 
 5.伪元素
 
@@ -165,4 +161,30 @@ C  创作者的规则高于浏览者：即网页编写者设置的CSS 样式的�
 D  继承的CSS 样式不如后来指定的CSS 样式；
 
 E  在同一组属性设置中标有“!important”规则的优先级最大；
+
+8.居中
+
+（1）水平居中
+
+        行内元素
+
+         
+
+```
+.center-text{
+    text-align: center;
+}
+```
+
+（2）垂直居中
+
+1     display: flex; justify-content:center;  align-items:Center;
+
+2     float:left; position:relative; right:50%;
+
+3     display: table-cell;  vertical-align: middle;  text-align: center;   
+
+4   position: absolute; left: 50%; top: 50%; transform: translate\(-50%,-50%\);
+
+
 
