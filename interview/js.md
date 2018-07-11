@@ -112,7 +112,21 @@ function fn()
 }
 var a = new fn;  
 console.log(a.user); //追梦子
+```
 
+call和apply的区别就是，apply第二个参数必须是一个数组
+
+```
+var a = {
+    user:"追梦子",
+    fn:function(e,ee){
+        console.log(this.user); //追梦子
+        console.log(e+ee); //11
+    }
+}
+var b = a.fn;
+b.apply(a,[10,1]);
+b.call(a,10,1);
 ```
 
 8.深拷贝与浅拷贝
