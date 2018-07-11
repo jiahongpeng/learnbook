@@ -91,32 +91,35 @@ this的指向在函数创建的时候是决定不了的，在调用的时候才�
 function Fn(){
     this.user = "追梦子";
 }
-var a = new Fn();    //改变this指向 为什么this会指向a？首先new关键字会创建一个空的对象，然后会自动调用一个函数apply（打比方）方法，
-将this指向这个空对象，这样的话函数内部的this就会被这个空的对象替代。
+var a = new Fn();    //改变this指向 为什么this会指向a？首先new关键字会创建一个空的对象，然后会自动调用一个函数apply（打比方）
+方法，将this指向这个空对象，这样的话函数内部的this就会被这个空的对象替代。
 console.log(a.user); //追梦子
+
+//如果返回值是对象，则this指向的是返回的对象，如果不是对象，this指向该函数的实例
+//对象
+function fn()  
+{  
+    this.user = '追梦子';  
+    return {};  
+}
+var a = new fn;  
+console.log(a.user); //undefined
+//不是对象
+function fn()  
+{  
+    this.user = '追梦子';  
+    return 1;
+}
+var a = new fn;  
+console.log(a.user); //追梦子
+
 ```
 
 8.深拷贝与浅拷贝
 
-https://blog.csdn.net/u014628388/article/details/77489400
+[https://blog.csdn.net/u014628388/article/details/77489400](https://blog.csdn.net/u014628388/article/details/77489400)
 
 **浅复制**—只是拷贝了基本类型的数据，而引用类型数据，复制后也是会发生引用，我们把这种拷贝叫做“（浅复制）浅拷贝”，换句话说，浅复制仅仅是指向被复制的内存地址，如果原地址中对象被改变了，那么浅复制出来的对象也会相应改变。（反之如此）
 
 **深复制**—在计算机中开辟了一块新的内存地址用于存放复制的对象。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
