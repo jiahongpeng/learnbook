@@ -114,7 +114,7 @@ var a = new fn;
 console.log(a.user); //追梦子
 ```
 
-call和apply的区别就是，apply第二个参数必须是一个数组
+**call和apply的区别就是，apply第二个参数必须是一个数组**
 
 注意如果call和apply的第一个参数写的是null，那么this指向的是window对象
 
@@ -141,7 +141,7 @@ var c = b.bind(a);
 c();
 ```
 
-**call和apply都是改变上下文中的this并立即执行这个函数，bind方法可以让对应的函数想什么时候调就什么时候调用，并且可以将参数在执行的时候添加。**
+**call和apply都是改变上下文中的this并立即执行这个函数，bind方法可以让对应的函数想什么时候调就什么时候调用，并且可以将参数在执行的时候添加。（bind的第二个参数也可以是数组）**
 
 8.深拷贝与浅拷贝
 
