@@ -169,6 +169,18 @@ alert("5的阶乘为："+myFun(5));
 
 箭头函数：this指向调用的对象。不能用call，bind，apply
 
+会被转化成false的值：false
+
+```
+undefined
+null
+0
+-0
+NaN
+""
+''
+```
+
 方法一：
 
 var obj2=JSON.parse\(JSON.stringify\(obj1\)\)
