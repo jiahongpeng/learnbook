@@ -149,6 +149,8 @@ c();
 
 [https://blog.csdn.net/u014628388/article/details/77489400](https://blog.csdn.net/u014628388/article/details/77489400)
 
+https://blog.csdn.net/mafan121/article/details/74420957
+
 **浅复制**—只是拷贝了基本类型的数据，而引用类型数据，复制后也是会发生引用，我们把这种拷贝叫做“（浅复制）浅拷贝”，换句话说，浅复制仅仅是指向被复制的内存地址，如果原地址中对象被改变了，那么浅复制出来的对象也会相应改变。（反之如此）
 
 **深复制**—在计算机中开辟了一块新的内存地址用于存放复制的对象。
@@ -169,9 +171,7 @@ alert("5的阶乘为："+myFun(5));
 
 方法一：
 
-var obj2=JSON.parse\(JSON.stringify\(obj1\)\)   
+var obj2=JSON.parse\(JSON.stringify\(obj1\)\)
 
 方法二：
-
-
 
