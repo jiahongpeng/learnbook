@@ -198,7 +198,13 @@ boolean:boolean
 （2）instanceof
 
 ```
-u instanceof Person
+u instanceof Person（结果是boolean）
+```
+
+（3）**constructor**
+
+```
+Object.constructor
 ```
 
 方法一：
