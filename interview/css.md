@@ -290,8 +290,6 @@ vertical-align:middle
         </div>
     </div>
 </div>
-
-
 ```
 
 
