@@ -185,5 +185,46 @@ NaN
 
 var obj2=JSON.parse\(JSON.stringify\(obj1\)\)
 
-方法二：
+方法二\(递归\)：
+
+```
+const isType=(a)=>{
+	if(a===undefined){
+		return "umdefined";	
+	}else if(a===null){
+		return "null";
+	}else{
+		return Object.prototype.toString.call(a).slice(8,-1)
+	}
+}
+const deepClone=(b)=>{
+	if(!b){return null};
+	let result,oClass=isType(b);
+	if(oClass==="Object"){
+		result={};
+	}else if(oClass==="Array"){
+		result=[];
+	}else{
+		return b;
+	};
+	for(let key in b){
+		if(b.hasOwnProperty(key)){
+			let ccopy=b[key];
+			if(isType(ccopy)==="Object"){
+				result[key]=deepClone(ccopy);
+			}else if(isType(ccopy)==="Array"){
+				result[key]=deepClone(ccopy);
+			}else{
+				result[key]=ccopy;
+			}
+		}
+	}
+	return result;
+}
+let obj={a:1,b:[2,3]}
+var res=deepClone(obj);
+console.log(res);
+```
+
+
 
