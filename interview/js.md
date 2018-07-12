@@ -189,7 +189,16 @@ NaN
 undefined：undefined
 object:object
 array:object
+null:object
+string:string
+number:number
+boolean:boolean
+```
 
+（2）instanceof
+
+```
+u instanceof Person
 ```
 
 方法一：
