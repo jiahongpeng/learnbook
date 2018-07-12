@@ -183,7 +183,7 @@ NaN
 
 几种判断类型的方法
 
-（1）**typeof**
+（1）typeof
 
 ```
 undefined：undefined
@@ -201,7 +201,7 @@ boolean:boolean
 u instanceof Person（结果是boolean）
 ```
 
-（3）**constructor**
+（3）constructor
 
 ```
 Object.constructor
@@ -252,5 +252,5 @@ var res=deepClone(obj);
 console.log(res);
 ```
 
-
+https://segmentfault.com/a/1190000007535316
 
