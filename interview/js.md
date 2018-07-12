@@ -185,9 +185,12 @@ NaN
 
 （1）**typeof**
 
+```
 undefined：undefined
+object:object
+array:object
 
-
+```
 
 方法一：
 
