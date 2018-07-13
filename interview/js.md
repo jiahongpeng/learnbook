@@ -254,7 +254,7 @@ console.log(res);
 
 [https://segmentfault.com/a/1190000007535316](https://segmentfault.com/a/1190000007535316)
 
-9. 获取url参数
+1. 获取url参数
 
 ```
 getQueryData: function (queryString) {
@@ -265,7 +265,7 @@ getQueryData: function (queryString) {
         if (item[0]) {
             var value = item[1] || '';
             value = (value === 'null') ? null : value;
-            parms[decodeURIComponent(item[0])] = value;
+            parms[item[0]] = decodeURIComponent(value);
         }
         i++;
     }
