@@ -12,11 +12,15 @@
 
 由于有些npm有些资源被屏蔽或者是国外资源的原因，经常会导致用npm安装依赖包的时候失败
 
-3.什么是vue-cli
+**3.什么是vue-cli**
 
 vue-cli 是vue.[js](http://lib.csdn.net/base/javascript)的脚手架，用于自动生成vue.js+webpack的项目模板
 
-4.webpack
+**4.webpack**
 
 webpack是构建工具、模块打包器，也就是整个项目是基于webpack的
+
+node\_modules：项目依赖包资源
+
+
 
