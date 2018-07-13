@@ -29,4 +29,5 @@
   * [小程序生命周期](xiao-cheng-xu/xiao-cheng-xu-sheng-ming-zhou-qi.md)
   * [Socket通讯](xiao-cheng-xu/sockettong-xun.md)
 * [git](git.md)
+* [Vue](vue.md)
 
