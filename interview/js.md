@@ -252,5 +252,26 @@ var res=deepClone(obj);
 console.log(res);
 ```
 
-https://segmentfault.com/a/1190000007535316
+[https://segmentfault.com/a/1190000007535316](https://segmentfault.com/a/1190000007535316)
+
+9. 获取url参数
+
+```
+getQueryData: function (queryString) {
+    var arr = queryString.split("?");
+    var querys = arr[1].split('&'),i = 0,parms = {},item;
+    while (i < querys.length) {
+        item = querys[i].split('=');
+        if (item[0]) {
+            var value = item[1] || '';
+            value = (value === 'null') ? null : value;
+            parms[decodeURIComponent(item[0])] = value;
+        }
+        i++;
+    }
+    return parms;
+}
+```
+
+
 
