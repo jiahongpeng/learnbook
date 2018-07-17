@@ -244,7 +244,7 @@ vertical-align:middle
     transform: translateY(-50%);
 }
 
-//垂直居中（父元素）
+//水平垂直居中（父元素）
 .parent {
     display: flex;
     justify-content: center;
