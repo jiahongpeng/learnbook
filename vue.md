@@ -34,5 +34,7 @@ vue-router用来做前端路由，可以方便你实现vue组件之间显示的�
 
 [https://www.jianshu.com/p/ec436222c608](https://www.jianshu.com/p/ec436222c608)
 
-https://www.jianshu.com/p/bfb5ca56b4fb       vue-infinite-loading2.0 中文文档
+vue-infinite-loading2.0 中文文档
+
+[https://www.jianshu.com/p/bfb5ca56b4fb](https://www.jianshu.com/p/bfb5ca56b4fb)
 
