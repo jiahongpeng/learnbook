@@ -207,9 +207,9 @@ u instanceof Person（结果是boolean）
 Object.constructor
 ```
 
-方法一：
+方法一：（value是function不可以）
 
-var obj2=JSON.parse\(JSON.stringify\(obj1\)\)
+var obj2=JSON.parse\(JSON.stringify\(obj1\)\)    
 
 方法二\(递归\)：
 
