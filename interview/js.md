@@ -290,9 +290,12 @@ async function testSometing() {
     console.log("执行testSometing");
     return "testSometing";
 }
-
 await testSometing();
+//结果
+执行testSometing
+"testSometing"
 
+//解决方法二
 async function timeout() {
     return 'hello world'
 }
@@ -303,7 +306,6 @@ console.log('虽然在后面，但是我先执行');
 //结果
 虽然在后面，但是我先执行
 hello world
-
 ```
 
 
