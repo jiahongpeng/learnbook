@@ -283,7 +283,7 @@ console.log(timeout());
 console.log('虽然在后面，但是我先执行');
 //结果:返回的是promise对象
 Promise {<resolved>: "hello world"}
-VM32824:5 虽然在后面，但是我先执行
+虽然在后面，但是我先执行
 
 
 async function timeout() {
