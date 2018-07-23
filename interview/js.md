@@ -285,6 +285,13 @@ console.log('虽然在后面，但是我先执行');
 Promise {<resolved>: "hello world"}
 虽然在后面，但是我先执行
 
+//解决方法一
+async function testSometing() {
+    console.log("执行testSometing");
+    return "testSometing";
+}
+
+await testSometing();
 
 async function timeout() {
     return 'hello world'
