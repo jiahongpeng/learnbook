@@ -209,7 +209,7 @@ Object.constructor
 
 方法一：（value是function不可以）
 
-var obj2=JSON.parse\(JSON.stringify\(obj1\)\)    
+var obj2=JSON.parse\(JSON.stringify\(obj1\)\)
 
 方法二\(递归\)：
 
@@ -254,7 +254,7 @@ console.log(res);
 
 [https://segmentfault.com/a/1190000007535316](https://segmentfault.com/a/1190000007535316)
 
-1. 获取url参数
+9.获取url参数
 
 ```
 getQueryData: function (queryString) {
