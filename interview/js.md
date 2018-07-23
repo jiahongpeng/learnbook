@@ -273,7 +273,7 @@ getQueryData: function (queryString) {
 }
 ```
 
-10. async 和 await
+1. async 和 await
 
 ```
 async function timeout() {
@@ -281,8 +281,8 @@ async function timeout() {
 }
 console.log(timeout());
 console.log('虽然在后面，但是我先执行');
-//结果
-Promise {<resolved>: "hello world"}
+//结果:返回的是promise对象
+Promise {<resolved>: "hello world"}
 VM32824:5 虽然在后面，但是我先执行
 
 
