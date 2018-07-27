@@ -329,5 +329,14 @@ hello world
 
 11.排序
 
+\(1\)sort
 
+```
+function compare(a,b){
+    return a-b
+}
+arr.sort(compare);
+```
+
+\(2\)
 
