@@ -273,7 +273,7 @@ getQueryData: function (queryString) {
 }
 ```
 
-1. async 和 await
+10.async 和 await
 
 ```
 如果它等到的不是一个 Promise 对象，那 await 表达式的运算结果就是它等到的东西。
@@ -326,4 +326,8 @@ hello world
 [https://juejin.im/post/59e85eebf265da430d571f89](https://juejin.im/post/59e85eebf265da430d571f89)
 
 [https://segmentfault.com/a/1190000013702430](https://segmentfault.com/a/1190000013702430)
+
+11.排序
+
+
 
