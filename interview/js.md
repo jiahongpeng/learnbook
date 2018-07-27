@@ -276,6 +276,13 @@ getQueryData: function (queryString) {
 1. async 和 await
 
 ```
+如果它等到的不是一个 Promise 对象，那 await 表达式的运算结果就是它等到的东西。
+
+如果它等到的是一个 Promise 对象，await 就忙起来了，它会阻塞后面的代码，等着 Promise 对象 resolve，然后得到 resolve 的值，
+作为 await 表达式的运算结果。
+```
+
+```
 async function timeout() {
     return 'hello world'
 }
@@ -316,7 +323,7 @@ hello world
 
 [https://juejin.im/entry/58b21e6c570c3500692805f1](https://juejin.im/entry/58b21e6c570c3500692805f1)
 
-https://juejin.im/post/59e85eebf265da430d571f89
+[https://juejin.im/post/59e85eebf265da430d571f89](https://juejin.im/post/59e85eebf265da430d571f89)
 
-https://segmentfault.com/a/1190000013702430
+[https://segmentfault.com/a/1190000013702430](https://segmentfault.com/a/1190000013702430)
 
