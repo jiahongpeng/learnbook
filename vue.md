@@ -42,7 +42,9 @@ vue-router用来做前端路由，可以方便你实现vue组件之间显示的�
 
 ![](/assets/10868449-01a038fa573b22c8.png)
 
-watch：https://blog.csdn.net/wandoumm/article/details/80259908
+watch：[https://blog.csdn.net/wandoumm/article/details/80259908](https://blog.csdn.net/wandoumm/article/details/80259908)
+
+
 
 [https://www.jianshu.com/p/514c7588e877](https://www.jianshu.com/p/514c7588e877)
 
