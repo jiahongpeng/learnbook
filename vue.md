@@ -10,13 +10,9 @@ webstrom环境配置
 
 4.在文件中解决报错
 
-（1）在script标签上添加属性  type="es6"
+（1）在script标签上添加属性  type="es6"
 
 （2）Settings &gt;Language Injections添加![](/assets/1055753-20170605164939622-835671294.png)
-
-
-
-
 
 **1.npm是什么？**
 
@@ -45,6 +41,8 @@ node\_modules：项目依赖包资源
 vue-router用来做前端路由，可以方便你实现vue组件之间显示的切换、参数传递之类
 
 ![](/assets/10868449-01a038fa573b22c8.png)
+
+watch：https://blog.csdn.net/wandoumm/article/details/80259908
 
 [https://www.jianshu.com/p/514c7588e877](https://www.jianshu.com/p/514c7588e877)
 
