@@ -30,5 +30,6 @@
   * [Socket通讯](xiao-cheng-xu/sockettong-xun.md)
 * [git](git.md)
 * [Vue](vue.md)
+  * [stylus](vue/stylus.md)
 * [webstrom激活](webstromji-huo.md)
 
