@@ -1,5 +1,19 @@
 搭建环境：[https://www.cnblogs.com/RexSheng/articles/6934413.html](https://www.cnblogs.com/RexSheng/articles/6934413.html)
 
+vue方法：
+
+methods：定义方法
+
+computed：计算属性
+
+生命周期
+
+created: 数据的初始化，异步请求也适宜在这里调用。
+
+mounted: 通常是初始化页面完成后，再对html的dom节点进行一些需要的操作
+
+
+
 webstrom环境配置
 
 1.语言改成es6
@@ -43,8 +57,6 @@ vue-router用来做前端路由，可以方便你实现vue组件之间显示的�
 ![](/assets/10868449-01a038fa573b22c8.png)
 
 watch：[https://blog.csdn.net/wandoumm/article/details/80259908](https://blog.csdn.net/wandoumm/article/details/80259908)
-
-
 
 [https://www.jianshu.com/p/514c7588e877](https://www.jianshu.com/p/514c7588e877)
 
