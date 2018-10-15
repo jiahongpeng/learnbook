@@ -71,7 +71,7 @@ function unique4(array){
 // 5.思路：获取没重复的最右一值放入新数组 
 function unique5(array){ 
     var r = []; 
-    for(var i = 0, l = array.length; i < l; i++) { 
+    for(var i = 0, i < array.length; i++) { 
         for(var j = i + 1; j < l; j++) {
             if (array[i] === array[j]) j = ++i; 
         }
