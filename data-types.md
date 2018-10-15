@@ -59,7 +59,7 @@ function unique3(array){
 }
 // 4.将相同的值相邻，然后遍历去除重复值
 function unique4(array){ 
-    array.sort(); 
+    array.sort();     //按照首字母排序
     var re=[array[0]]; 
     for(var i = 1; i < array.length; i++){ 
         if( array[i] !== re[re.length-1]){ 
