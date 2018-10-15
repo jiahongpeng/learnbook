@@ -57,7 +57,7 @@ function unique3(array){
     }
     return n; 
 }
-// 4.将相同的值相邻，然后遍历去除重复值 
+// 4.将相同的值相邻，然后遍历去除重复值
 function unique4(array){ 
     array.sort(); 
     var re=[array[0]]; 
