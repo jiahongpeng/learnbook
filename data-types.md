@@ -44,7 +44,7 @@ function unique2(array){
             r.push(val); 
         } 
     } 
-    return r; 
+    return r;
 }
 //3.如果当前数组的第i项在当前数组中第一次出现的位置不是i，那么表示第i项是重复的，忽略掉。否则存入结果数组。
 function unique3(array){ 
