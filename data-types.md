@@ -66,7 +66,7 @@ function unique4(array){
               re.push(array[i]); 
         }
     } 
-    return re; 
+    return re;
 } 
 // 5.思路：获取没重复的最右一值放入新数组 
 function unique5(array){ 
