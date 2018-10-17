@@ -6,7 +6,7 @@
 //1.拿出手机  
 //2.拨号  
 //3.说话  
-//4.挺对方说话
+//4.听对方说话
 
 //ajax也分下面4步  
 //1.创建ajax对象  
@@ -222,10 +222,6 @@ POST
 
 3.比如在微博这个场景里，GET的语义会被用在「看看我的Timeline上最新的20条微博」这样的场景，而POST的语义会被用在「发微博、评论、点赞」这样的场景中。
 
-
-
-
-
 **contentType:**
 
 发送信息至服务器时内容编码类型，简单说就是data值\(传参\)的数据类型是什么，默认值是: "application/x-www-form-urlencoded"
@@ -239,7 +235,4 @@ var json=JSON.stringify({name:"小明",age:20});
 **dataType：**
 
 告诉服务器，我想要返回什么类型的数据，就是success方法返回值的类型，除了常见的json、XML，还可以指定 html、jsonp、script或者text
-
-  
-
 
