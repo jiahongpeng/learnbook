@@ -70,7 +70,9 @@ window.onload=function(){
                         ** 4xx : 客户端错误
                         ** 5xx ：服务器端错误
                         */
-                    alert("成功"+oAjax.responseText);//读取a.txt文件成功就弹出成功。后面加上oAjax.responseText会输出a.txt文本的内容
+                    //读取a.txt文件成功就弹出成功。后面加上oAjax.responseText会输出a.txt文本的内容
+
+                    alert("成功"+oAjax.responseText);
                 }
                 else
                 {
