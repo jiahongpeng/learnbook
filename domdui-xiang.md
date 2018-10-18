@@ -6,7 +6,7 @@
 
 速度比较慢
 
-2.getElementByTagName\('标签'\)   //返回的是类数组对象
+2.getElementsByTagName\('标签'\)   //返回的是类数组对象
 
 node.setAttribute\('属性名'，‘属性值’\)；
 
