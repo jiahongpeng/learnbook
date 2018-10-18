@@ -71,7 +71,6 @@ window.onload=function(){
                         ** 5xx ：服务器端错误
                         */
                     //读取a.txt文件成功就弹出成功。后面加上oAjax.responseText会输出a.txt文本的内容
-
                     alert("成功"+oAjax.responseText);
                 }
                 else
