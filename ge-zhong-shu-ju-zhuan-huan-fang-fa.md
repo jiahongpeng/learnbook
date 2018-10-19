@@ -62,7 +62,7 @@ arr.splice\(\)的用法   向/从数组中添加/删除项目，然后返回被�
 
 ```
 (1)添加元素
-arr.splice(2,0,"William")   //索引为2
+arr.splice(2,0,"William")   //索引为2,第几个
 George,John,Thomas,James,Adrew,Martin
 George,John,William,Thomas,James,Adrew,Martin
 (2)删除位于 index 2 的元素，并添加一个新元素来替代被删除的元素
@@ -139,7 +139,13 @@ function getNewArr(){
 console.log(getNewArr());
 ```
 
+splice和slice的区别
 
+1.slice既能操作数组，也能操作字符串，splice只能操作数组
+
+2.slice是从第几位到第几位，splice是从第几位开始截取几位
+
+3.slice不改变原数组，splice改变原数组
 
 
 
