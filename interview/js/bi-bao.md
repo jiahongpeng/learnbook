@@ -38,10 +38,6 @@ html:
 js（没有闭包的时候）
 
 ```
-function
-```
-
-```
 function showHelp(help) {
   document.getElementById('help').innerHTML = help;
 }
