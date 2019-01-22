@@ -43,6 +43,23 @@ alert(a2);  //2
 
 /*call的用法*/
 var a1 = add.call(sub,4,2);
+//继承
+function Animal(name){
+  this.name = name;
+  this.showName = function(){
+        alert(this.name);    
+    }    
+}
+
+function Cat(name){
+  Animal.apply(this,[name]);    
+}
+
+var cat = new Cat("咕咕");
+cat.showName();
+
+/*call的用法*/
+Animal.call(this,name);
 ```
 
 
