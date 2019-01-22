@@ -28,5 +28,22 @@ get有大小限制\(只能提交少量参数\)
 
 6、call、apply、bind的区别
 
+```
+//基本用法
+function add(a,b){
+  return a+b;  
+}
+function sub(a,b){
+  return a-b;  
+}
+var a1 = add.apply(sub,[4,2]);　　//sub调用add的方法
+var a2 = sub.apply(add,[4,2]);
+alert(a1);  //6     
+alert(a2);  //2
+
+/*call的用法*/
+var a1 = add.call(sub,4,2);
+```
+
 
 
