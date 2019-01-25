@@ -103,3 +103,5 @@ json.stringfy\(\)将对象、数组转换成字符串；json.parse\(\)将字符�
 
 利用事件冒泡的原理，让自己的所触发的事件，让他的父元素代替执行！
 
+https://www.cnblogs.com/jcscript/p/5634439.html
+
