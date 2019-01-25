@@ -93,5 +93,9 @@ c2.showSub(3,1);    //2
 c2.showAdd(3,1);    //4
 ```
 
-https://www.cnblogs.com/cosiray/p/4512969.html
+[https://www.cnblogs.com/cosiray/p/4512969.html](https://www.cnblogs.com/cosiray/p/4512969.html)
+
+7、 ajax请求时，如何解析json数据
+
+json.stringfy\(\)将对象、数组转换成字符串；json.parse\(\)将字符串转成json对象。
 
