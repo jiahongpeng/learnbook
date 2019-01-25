@@ -95,7 +95,11 @@ c2.showAdd(3,1);    //4
 
 [https://www.cnblogs.com/cosiray/p/4512969.html](https://www.cnblogs.com/cosiray/p/4512969.html)
 
-7、 ajax请求时，如何解析json数据
+7、 ajax请求时，如何解析json数据
 
 json.stringfy\(\)将对象、数组转换成字符串；json.parse\(\)将字符串转成json对象。
+
+8、事件委托是什么
+
+利用事件冒泡的原理，让自己的所触发的事件，让他的父元素代替执行！
 
