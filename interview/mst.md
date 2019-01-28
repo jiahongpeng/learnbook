@@ -115,3 +115,5 @@ $(document).on('click','li',function(){
 
 闭包就是能够读取其他函数内部变量的函数,使得函数不被GC回收，如果过多使用闭包，容易导致内存泄露
 
+https://legacy.gitbook.com/book/jiahongpeng/learnweb-2/edit\#/edit/master/interview/js/bi-bao.md?\_k=59bt8u
+
