@@ -15,7 +15,7 @@ div.onclick=a;   //点击的时候执行a方法，告诉a方法所在的位置
 链式作用域"结构：内部函数能获取到外部的，外部获取不到内部的变量。子对象会一级一级地向上寻找所有父对象的变量。所以，父对象的所有变量，对子对象都是可见的，反之则不成立。
 
 ```js
-functionmakeAdder(x){
+function makeAdder(x){
     return function(y){
         return x+y;
     };
