@@ -95,6 +95,14 @@ c2.showAdd(3,1);    //4
 
 [https://www.cnblogs.com/cosiray/p/4512969.html](https://www.cnblogs.com/cosiray/p/4512969.html)
 
+**call\(\)和apply\(\)的区别就在于，两者之间的参数。**
+
+call\(\)在第一个参数之后的  后续所有参数就是传入该函数的值。**apply\(\) 只有两个参数**，第一个是对象，第二个是数组，这个数组就是该函数的参数。
+
+bind\(\) 方法和前两者不同在于： bind\(\) 方法会返回执行上下文被改变的函数而不会立即执行，而前两者是直接执行该函数。他的参数和call\(\)相同。
+
+https://www.jianshu.com/p/bc541afad6ee
+
 7、 ajax请求时，如何解析json数据
 
 json.stringfy\(\)将对象、数组转换成字符串；json.parse\(\)将字符串转成json对象。
@@ -115,5 +123,5 @@ $(document).on('click','li',function(){
 
 闭包就是能够读取其他函数内部变量的函数,使得函数不被GC回收，如果过多使用闭包，容易导致内存泄露
 
-https://legacy.gitbook.com/book/jiahongpeng/learnweb-2/edit\#/edit/master/interview/js/bi-bao.md?\_k=59bt8u
+[https://legacy.gitbook.com/book/jiahongpeng/learnweb-2/edit\#/edit/master/interview/js/bi-bao.md?\_k=59bt8u](https://legacy.gitbook.com/book/jiahongpeng/learnweb-2/edit#/edit/master/interview/js/bi-bao.md?_k=59bt8u)
 
