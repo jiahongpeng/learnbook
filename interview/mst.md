@@ -169,7 +169,7 @@ var click = document.getElementById('inner');
 var clickouter = document.getElementById('outer');
 click.addEventListener('click',function(event){
     alert('inner show');
-    event.stopPropagation();
+    //event.stopPropagation();
 },false);//只给inner绑定显示事件
 clickouter.addEventListener('click',function(){
     alert('outer show');
