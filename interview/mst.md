@@ -135,6 +135,34 @@ $(document).on('click','li',function(){
 “DOM事件流”：三个阶段：事件捕捉，目标阶段，事件冒泡
 
 https://www.cnblogs.com/jyybeam/p/5794932.html
+阻止冒泡  ：event.stopPropagation();
+
+
+
+function stopBubble(e){
+　　if(e&&e.stopPropagation){//非IE
+　　    e.stopPropagation();
+　　}
+　　else{//IE
+　　    window.event.cancelBubble=true;
+　　}
+}
+　　
+　　
+<a onclick=''>如果要阻止默认事件的触发，即默认的href事件，那么就需要调用如下函数：
+
+function stopDefault( e ) {
+　　//阻止默认浏览器动作(W3C)
+　　if ( e && e.preventDefault ){
+        e.preventDefault();
+    }
+　　
+　　//IE中阻止函数器默认动作的方式
+　　else{
+        window.event.returnValue = false;
+　　    return false;
+    }
+}
 ```
 
 
