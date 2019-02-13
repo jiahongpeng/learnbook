@@ -162,6 +162,18 @@ function stopDefault( e ) {
         return false;
     }
 }
+
+
+//option的应用
+var click = document.getElementById('inner');
+var clickouter = document.getElementById('outer');
+click.addEventListener('click',function(event){
+    alert('inner show');
+    event.stopPropagation();
+},false);//只给inner绑定显示事件
+clickouter.addEventListener('click',function(){
+    alert('outer show');
+},false);
 ```
 
 
