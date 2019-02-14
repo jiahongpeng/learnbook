@@ -176,7 +176,7 @@ clickouter.addEventListener('click',function(){
 },false);
 ```
 
-11、 ”==”和“===”的不同
+11、 ”==”和“===”的不同
 
 ```
 答案：前者会自动转换类型,再判断是否相等
