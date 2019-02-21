@@ -125,14 +125,14 @@ $(document).on('click','li',function(){
 
 [https://legacy.gitbook.com/book/jiahongpeng/learnweb-2/edit\#/edit/master/interview/js/bi-bao.md?\_k=59bt8u](https://legacy.gitbook.com/book/jiahongpeng/learnweb-2/edit#/edit/master/interview/js/bi-bao.md?_k=59bt8u)
 
-10、Javascript的事件流模型都有什么?
+10、Javascript的事件流模型都有什么?事件捕获阶段、处于目标阶段和事件冒泡阶段
 
 ```
 “事件冒泡”：事件开始由最具体的元素接受，然后逐级向上传播
 
 “事件捕捉”：事件由最不具体的节点先接收，然后逐级向下，一直到最具体的
 
-“DOM事件流”：三个阶段：事件捕捉，目标阶段，事件冒泡
+“DOM事件流”：三个阶段：事件捕捉，目标阶段，事件冒泡，
 
 https://www.cnblogs.com/jyybeam/p/5794932.html
 阻止冒泡  ：event.stopPropagation();
