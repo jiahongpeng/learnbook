@@ -183,5 +183,5 @@ clickouter.addEventListener('click',function(){
 后者不会自动类型转换，直接去比较
 ```
 
-12、
+12、 js延迟加载的方式有哪些
 
