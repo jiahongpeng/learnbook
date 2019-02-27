@@ -195,6 +195,21 @@ HTML5 为 <script>标签定义了 async属性。与defer属性类似，都用于
 目的：不让页面等待脚本下载和执行，从而异步加载页面其他内容。
 延迟脚本并不一定会按照顺序执行
 <script src="test1.js" async></script>
+3.动态创建DOM方式
+//这些代码应被放置在</body>标签前(接近HTML文件底部)
+<script type="text/javascript">  
+   function downloadJSAtOnload() {  
+       varelement = document.createElement("script");  
+       element.src = "defer.js";  
+       document.body.appendChild(element);  
+   }  
+   if (window.addEventListener)  
+      window.addEventListener("load",downloadJSAtOnload, false);  
+   else if (window.attachEvent)  
+      window.attachEvent("onload",downloadJSAtOnload);  
+   else 
+      window.onload =downloadJSAtOnload;  
+</script>
 ```
 
 
