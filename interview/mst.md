@@ -210,6 +210,14 @@ HTML5 为 <script>标签定义了 async属性。与defer属性类似，都用于
    else 
       window.onload =downloadJSAtOnload;  
 </script>
+
+4.使用jQuery的getScript()方法
+$.getScript("outer.js",function(){//回调函数，成功获取文件后执行的函数  
+      console.log("脚本加载完成")  
+});
+5.使用setTimeout延迟方法
+6.让JS最后加载
+把js外部引入的文件放到页面底部，来让js最后引入，从而加快页面加载速度
 ```
 
 
