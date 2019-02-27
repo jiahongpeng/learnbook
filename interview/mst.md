@@ -183,5 +183,12 @@ clickouter.addEventListener('click',function(){
 后者不会自动类型转换，直接去比较
 ```
 
-12、 js延迟加载的方式有哪些
+12、 js延迟加载的方式有哪些
+
+```
+1. defer 属性
+在<script> 元素中设置 defer 属性，等于告诉浏览器立即下载，但延迟执行。
+```
+
+
 
