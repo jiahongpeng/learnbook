@@ -189,7 +189,11 @@ clickouter.addEventListener('click',function(){
 1. defer 属性
 在<script> 元素中设置 defer 属性，等于告诉浏览器立即下载，但延迟执行。
 <script src="test1.js" defer="defer"></script>
-
+延迟脚本并不一定会按照顺序执行
+2. async 属性
+HTML5 为 <script>标签定义了 async属性。与defer属性类似，都用于改变处理脚本的行为。同样，只适用于外部脚本文件。 
+目的：不让页面等待脚本下载和执行，从而异步加载页面其他内容。
+延迟脚本并不一定会按照顺序执行
 ```
 
 
