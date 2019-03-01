@@ -220,5 +220,9 @@ $.getScript("outer.js",function(){//回调函数，成功获取文件后执行�
 把js外部引入的文件放到页面底部，来让js最后引入，从而加快页面加载速度
 ```
 
+13. innerHTML和outerHTML的区别
 
+innerHTML\(元素内包含的内容）
+
+outerHTML\(自己以及元素内的内容）
 
