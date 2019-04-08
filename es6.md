@@ -10,6 +10,14 @@ JavaScript 引擎内部会记住上一轮循环的值，初始化本轮的变量
 
 如果变量没有声明，则报错
 
+```
+console.log(foo); // 输出undefined
+console.log(bar); // 报错ReferenceError
+
+var foo = 2;
+let bar = 2;
+```
+
 （3）暂时性死区（由于（2）造成的），只能在声明的位置后面使用。
 
 （4）不允许重复声明

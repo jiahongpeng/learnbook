@@ -226,3 +226,11 @@ innerHTML\(元素内包含的内容）
 
 outerHTML\(自己以及元素内的内容）
 
+14、盒子模型
+
+标准盒子模型：margin    border    padding    content    宽高包括content
+
+IE盒子模型  ：margin    border    padding     content     宽高包括content、padding、border
+
+
+
