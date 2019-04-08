@@ -13,7 +13,6 @@ JavaScript 引擎内部会记住上一轮循环的值，初始化本轮的变量
 ```
 console.log(foo); // 输出undefined
 console.log(bar); // 报错ReferenceError
-
 var foo = 2;
 let bar = 2;
 ```
