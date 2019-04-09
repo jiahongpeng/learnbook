@@ -51,7 +51,17 @@ function func(arg) {
 （1）块级作用域的原因
 
 ```
-//内层变量可能会覆盖外层变量。
+//内层变量可能会覆盖外层变量。变量提前导致的
+var tmp = new Date();
+
+function f() {
+  console.log(tmp);
+  if (false) {
+    var tmp = 'hello world';
+  }
+}
+
+f(); // undefined
 ```
 
 **es6中声明变量的方式**
