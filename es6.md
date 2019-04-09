@@ -23,6 +23,18 @@ let bar = 2;
 
 （4）不允许重复声明
 
+```
+function func(arg) {
+  let arg; // 报错
+}
+
+function func(arg) {
+  {
+    let arg; // 不报错
+  }
+}
+```
+
 **es6中声明变量的方式**
 
 `var`命令和`function`命令  `let`和`const`命令  `import`命令和`class`命令
