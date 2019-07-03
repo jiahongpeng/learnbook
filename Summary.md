@@ -21,6 +21,7 @@
     * [基础](interview/js/ji-chu.md)
     * [闭包](interview/js/bi-bao.md)
     * [null 和undefined](interview/js/null-he-undefined.md)
+    * [内存泄露和垃圾回收](interview/js/nei-cun-xie-lu-he-la-ji-hui-shou.md)
   * [html](html.md)
   * [h5](h5.md)
   * [MST](interview/mst.md)
