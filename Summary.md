@@ -36,4 +36,5 @@
 * [webstrom激活](webstromji-huo.md)
 * [java基础](javaji-chu.md)
 * [webpack](webpack.md)
+* [vscode插件安装](vscodecha-jian-an-zhuang.md)
 
