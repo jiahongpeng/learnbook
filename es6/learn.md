@@ -23,6 +23,10 @@ x // "a"
 （2）默认值
 
 ```
+当数组中的某个值是undefined时才默认值才会生效
+```
+
+```
 let [foo = true] = [];
 foo // true
 
@@ -93,8 +97,6 @@ let { loc, loc: { start }, loc: { start: { line }} } = node;
 line // 1
 loc  // Object {start: Object}
 start // Object {line: 1, column: 5}
-
-
 ```
 
 （2）默认值：同上
