@@ -49,3 +49,15 @@ var  function   let    const     import    class
 
 let    const   class不是顶层变量
 
+```
+var a = 1;
+// 如果在 Node 的 REPL 环境，可以写成 global.a
+// 或者采用通用方法，写成 this.a
+window.a // 1
+
+let b = 1;
+window.b // undefined
+```
+
+
+
