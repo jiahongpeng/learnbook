@@ -121,6 +121,9 @@ b // "e"
 c // "l"
 d // "l"
 e // "o"
+
+let {length : len} = 'hello';
+len // 5
 ```
 
 
