@@ -56,6 +56,8 @@ bar // "bbb"
 let { baz } = { foo: 'aaa', bar: 'bbb' };
 baz // undefined
 
+//如果变量名与属性名不一致，必须写成下面这样
+
 let { foo: baz } = { foo: 'aaa', bar: 'bbb' };
 baz // "aaa"
 
