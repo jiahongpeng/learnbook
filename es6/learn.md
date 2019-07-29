@@ -263,3 +263,9 @@ for (let [,value] of map) {
 
 （7）输入模块的指定方法
 
+```
+const { SourceMapConsumer, SourceNode } = require("source-map");
+```
+
+
+
