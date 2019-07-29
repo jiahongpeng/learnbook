@@ -28,6 +28,8 @@ foo // true
 
 let [x, y = 'b'] = ['a']; // x='a', y='b'
 let [x, y = 'b'] = ['a', undefined]; // x='a', y='b'
+
+//只有当一个数组成员严格等于undefined，默认值才会生效
 let [x = 1] = [undefined];
 x // 1
 
