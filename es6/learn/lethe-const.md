@@ -43,5 +43,7 @@ var constantize = (obj) => {
 };
 ```
 
+4.声明变量的方法
 
+var  function   let    const     import    class
 
