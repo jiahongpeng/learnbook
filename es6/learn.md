@@ -207,3 +207,17 @@ f({z: 3, y: 2, x: 1});
 
 （4）提取JSON数据
 
+```
+let jsonData = {
+  id: 42,
+  status: "OK",
+  data: [867, 5309]
+};
+
+let { id, status, data: number } = jsonData;
+
+console.log(id, status, number);
+```
+
+
+
