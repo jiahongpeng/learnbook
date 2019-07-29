@@ -21,6 +21,10 @@
 （3）
 
 ```
+const a = [];
+a.push('Hello'); // 可执行
+a.length = 0;    // 可执行
+a = ['Dave'];    // 报错
 const foo = Object.freeze({});
 // 常规模式时，下面一行不起作用；
 // 严格模式时，该行会报错
