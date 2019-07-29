@@ -16,6 +16,7 @@
   * [learn](es6/learn.md)
     * [介绍](es6/learn/jie-shao.md)
     * [let和const](es6/learn/lethe-const.md)
+    * 数组的解构赋值
 * [interview](interview.md)
   * [css](interview/css.md)
     * [css规范](interview/css/cssgui-fan.md)
