@@ -65,6 +65,19 @@ let obj = { first: 'hello', last: 'world' };
 let { first: f, last: l } = obj;
 f // 'hello'
 l // 'world'
+
+
+//嵌套
+let obj = {
+  p: [
+    'Hello',
+    { y: 'World' }
+  ]
+};
+
+let { p: [x, { y }] } = obj;
+x // "Hello"
+y // "World"
 ```
 
 
