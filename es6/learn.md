@@ -46,3 +46,16 @@ let [x = y, y = 1] = [];     // ReferenceError: y is not defined
 
 2.对象的结构赋值
 
+对象的属性没有次序，变量必须与属性同名，才能取到正确的值
+
+```
+let { bar, foo } = { foo: 'aaa', bar: 'bbb' };
+foo // "aaa"
+bar // "bbb"
+
+let { baz } = { foo: 'aaa', bar: 'bbb' };
+baz // undefined
+```
+
+
+
