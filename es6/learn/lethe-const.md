@@ -50,7 +50,7 @@ var  function   let    const     import    class
 let    const   class不是顶层变量
 
 ```
-var a = 1；
+var a = 1;
 window.a // 1
 
 let b = 1;
