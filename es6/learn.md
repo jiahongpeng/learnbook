@@ -97,7 +97,21 @@ let { loc, loc: { start }, loc: { start: { line }} } = node;
 line // 1
 loc  // Object {start: Object}
 start // Object {line: 1, column: 5}
+
+//赋值
+let obj = {};
+let arr = [];
+
+({ foo: obj.prop, bar: arr[0] } = { foo: 123, bar: true });
+
+obj // {prop:123}
+arr // [true]
+
 ```
 
 （2）默认值：同上
+
+（3）注意点
+
+
 
