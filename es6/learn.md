@@ -44,5 +44,5 @@ let [x = 1, y = x] = [1, 2]; // x=1; y=2
 let [x = y, y = 1] = [];     // ReferenceError: y is not defined
 ```
 
-
+2.对象的结构赋值
 
