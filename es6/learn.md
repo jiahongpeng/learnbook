@@ -23,7 +23,16 @@ x // "a"
 （2）默认值
 
 ```
+let [foo = true] = [];
+foo // true
 
+let [x, y = 'b'] = ['a']; // x='a', y='b'
+let [x, y = 'b'] = ['a', undefined]; // x='a', y='b'
+let [x = 1] = [undefined];
+x // 1
+
+let [x = 1] = [null];
+x // null
 ```
 
 
