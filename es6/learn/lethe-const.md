@@ -47,3 +47,5 @@ var constantize = (obj) => {
 
 var  function   let    const     import    class
 
+let    const   class不是顶层变量
+
