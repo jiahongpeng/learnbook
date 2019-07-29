@@ -248,6 +248,17 @@ for (let [key, value] of map) {
 }
 // first is hello
 // second is world
+
+
+// 获取键名
+for (let [key] of map) {
+  // ...
+}
+
+// 获取键值
+for (let [,value] of map) {
+  // ...
+}
 ```
 
 
