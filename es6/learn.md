@@ -55,6 +55,14 @@ bar // "bbb"
 
 let { baz } = { foo: 'aaa', bar: 'bbb' };
 baz // undefined
+
+let { foo: baz } = { foo: 'aaa', bar: 'bbb' };
+baz // "aaa"
+
+let obj = { first: 'hello', last: 'world' };
+let { first: f, last: l } = obj;
+f // 'hello'
+l // 'world'
 ```
 
 
