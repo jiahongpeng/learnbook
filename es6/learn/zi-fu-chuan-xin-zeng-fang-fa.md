@@ -22,6 +22,8 @@ s.includes('Hello', 6) // false
 // RangeError
 'na'.repeat(-1)
 // RangeError
+
+'na'.repeat(-0.9) // ""
 ```
 
 
