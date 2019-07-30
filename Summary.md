@@ -17,6 +17,7 @@
     * [介绍](es6/learn/jie-shao.md)
     * [let和const](es6/learn/lethe-const.md)
     * [变量的解构赋值](es6/learn/shu-zu-de-jie-gou-fu-zhi.md)
+    * [字符串的拓展](es6/learn/zi-fu-chuan-de-tuo-zhan.md)
 * [interview](interview.md)
   * [css](interview/css.md)
     * [css规范](interview/css/cssgui-fan.md)
