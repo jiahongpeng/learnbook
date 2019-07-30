@@ -8,5 +8,7 @@ for (let codePoint of 'foo') {
 }
 ```
 
+4.json.stringify\(\)
+
 
 
