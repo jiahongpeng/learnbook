@@ -45,6 +45,15 @@ padEnd\(\)：尾部补全
 
 'x'.padEnd(5, 'ab') // 'xabab'
 'x'.padEnd(4, 'ab') // 'xaba'
+
+
+//长度小于原来字符串长度，则不变
+'xxx'.padStart(2, 'ab') // 'xxx'
+'xxx'.padEnd(2, 'ab') // 'xxx'
+
+//如果补全后的字符串和比需要的长度长，则自动截取
+'abc'.padStart(10, '0123456789')
+
 ```
 
 
