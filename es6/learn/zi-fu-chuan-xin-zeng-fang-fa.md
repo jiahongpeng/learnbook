@@ -15,7 +15,11 @@ s.includes('Hello', 6) // false
 'x'.repeat(3) // "xxx"
 'hello'.repeat(2) // "hellohello"
 'na'.repeat(0) // ""
+//小数取整
+'na'.repeat(2.9) // "nana"
 ```
+
+
 
 
 
