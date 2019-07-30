@@ -11,7 +11,11 @@ s.includes('Hello', 6) // false
 
 6.实例方法：repeat\(\)
 
-
+```
+'x'.repeat(3) // "xxx"
+'hello'.repeat(2) // "hellohello"
+'na'.repeat(0) // ""
+```
 
 
 
