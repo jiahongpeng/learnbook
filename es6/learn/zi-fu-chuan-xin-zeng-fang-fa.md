@@ -23,6 +23,7 @@ s.includes('Hello', 6) // false
 'na'.repeat(-1)
 // RangeError
 
+//0--1相当于0
 'na'.repeat(-0.9) // ""
 ```
 
