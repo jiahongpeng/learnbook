@@ -119,5 +119,8 @@ for (let codePoint of 'foo') {
       return script;
     }
 
+    let parse = eval(compile(template));
+    div.innerHTML = parse({ supplies: [ "broom", "mop", "cleaner" ] });
+
 
 
