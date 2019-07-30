@@ -44,7 +44,7 @@ for (let codePoint of 'foo') {
     `.trim());
 
 
-    //
+    //大括号里面可以放js表达式，可以运算，可以获取对象属性，可以放方法
     let x = 1;
     let y = 2;
 
