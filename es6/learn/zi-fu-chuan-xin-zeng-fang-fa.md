@@ -40,48 +40,11 @@ padStart\(\)：头部补全
 padEnd\(\)：尾部补全
 
 ```
-'x'
-```
+'x'.padStart(5, 'ab') // 'ababx'
+'x'.padStart(4, 'ab') // 'abax'
 
-```
-.
-padStart
-(
-5
-,
-'ab'
-)
- // 'ababx'
-
-'x'
-.
-padStart
-(
-4
-,
-'ab'
-)
- // 'abax'
-
-'x'
-.
-padEnd
-(
-5
-,
-'ab'
-)
- // 'xabab'
-
-'x'
-.
-padEnd
-(
-4
-,
-'ab'
-)
- // 'xaba'
+'x'.padEnd(5, 'ab') // 'xabab'
+'x'.padEnd(4, 'ab') // 'xaba'
 ```
 
 
