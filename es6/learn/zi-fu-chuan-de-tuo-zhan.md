@@ -20,7 +20,7 @@ for (let codePoint of 'foo') {
       '</em> are on sale!'
     );
 
-
+    //新的
     $('#result').append(`
       There are <b>${basket.count}</b> items
        in your basket, <em>${basket.onSale}</em>
