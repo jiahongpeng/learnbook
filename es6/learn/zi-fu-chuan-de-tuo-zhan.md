@@ -12,14 +12,20 @@ for (let codePoint of 'foo') {
 
 \*\*\*\*5.模板字符串
 
-```
-$('#result').append(
-  'There are <b>' + basket.count + '</b> ' +
-  'items in your basket, ' +
-  '<em>' + basket.onSale +
-  '</em> are on sale!'
-);
-```
+    //原来
+    $('#result').append(
+      'There are <b>' + basket.count + '</b> ' +
+      'items in your basket, ' +
+      '<em>' + basket.onSale +
+      '</em> are on sale!'
+    );
+
+
+    $('#result').append(`
+      There are <b>${basket.count}</b> items
+       in your basket, <em>${basket.onSale}</em>
+      are on sale!
+    `);
 
 
 
