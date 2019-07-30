@@ -57,6 +57,10 @@ padEnd\(\)：尾部补全
 //第二个参数没有，用空格补全
 'x'.padStart(4) // '   x'
 'x'.padEnd(4) // 'x   '
+
+//提示字符串格式
+'12'.padStart(10, 'YYYY-MM-DD') // "YYYY-MM-12"
+'09-12'.padStart(10, 'YYYY-MM-DD') // "YYYY-09-12"
 ```
 
 
