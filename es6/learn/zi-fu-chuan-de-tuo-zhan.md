@@ -64,5 +64,16 @@ for (let codePoint of 'foo') {
     `foo ${fn()} bar`
     // foo Hello World bar
 
+
+    //还能嵌套
+    const tmpl = addrs => `
+      <table>
+      ${addrs.map(addr => `
+        <tr><td>${addr.first}</td></tr>
+        <tr><td>${addr.last}</td></tr>
+      `).join('')}
+      </table>
+    `;
+
 6.
 
