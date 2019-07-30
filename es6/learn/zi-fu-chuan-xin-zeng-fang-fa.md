@@ -26,6 +26,9 @@ s.includes('Hello', 6) // false
 //0-1相当于0，nan也相当于0
 'na'.repeat(-0.9) // ""
 'na'.repeat(NaN) // ""
+
+'na'.repeat('na') // ""
+'na'.repeat('3') // "nanana"
 ```
 
 
