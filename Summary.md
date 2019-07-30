@@ -18,6 +18,7 @@
     * [let和const](es6/learn/lethe-const.md)
     * [变量的解构赋值](es6/learn/shu-zu-de-jie-gou-fu-zhi.md)
     * [字符串的拓展](es6/learn/zi-fu-chuan-de-tuo-zhan.md)
+    * [字符串新增方法](es6/learn/zi-fu-chuan-xin-zeng-fang-fa.md)
 * [interview](interview.md)
   * [css](interview/css.md)
     * [css规范](interview/css/cssgui-fan.md)
