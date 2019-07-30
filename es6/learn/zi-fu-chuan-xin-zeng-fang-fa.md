@@ -9,5 +9,9 @@ s.endsWith('Hello', 5) // true
 s.includes('Hello', 6) // false
 ```
 
-6.repeat
+6.实例方法：repeat\(\)
+
+
+
+
 
