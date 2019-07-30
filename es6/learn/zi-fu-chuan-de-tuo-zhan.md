@@ -27,5 +27,20 @@ for (let codePoint of 'foo') {
       are on sale!
     `);
 
+    //保留换行和空格
+    $('#list').html(`
+    <ul>
+      <li>first</li>
+      <li>second</li>
+    </ul>
+    `);
+    //trim()清除空格和换行
+    ('#list').html(`
+    <ul>
+      <li>first</li>
+      <li>second</li>
+    </ul>
+    `.trim());
 
+5.
 
