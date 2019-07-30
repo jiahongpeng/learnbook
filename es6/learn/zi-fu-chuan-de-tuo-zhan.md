@@ -34,7 +34,7 @@ for (let codePoint of 'foo') {
       <li>second</li>
     </ul>
     `);
-    //trim()清除空格和换行
+    //trim()清除空格和换行//从字符串中移除前导空格、尾随空格和行终止符。
     ('#list').html(`
     <ul>
       <li>first</li>
