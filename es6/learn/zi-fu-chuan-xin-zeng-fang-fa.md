@@ -17,9 +17,12 @@ s.includes('Hello', 6) // false
 'na'.repeat(0) // ""
 //小数取整
 'na'.repeat(2.9) // "nana"
+
+'na'.repeat(Infinity)
+// RangeError
+'na'.repeat(-1)
+// RangeError
 ```
-
-
 
 
 
