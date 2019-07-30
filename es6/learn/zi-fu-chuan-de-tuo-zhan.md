@@ -75,5 +75,12 @@ for (let codePoint of 'foo') {
       </table>
     `;
 
+    const data = [
+        { first: '<Jane>', last: 'Bond' },
+        { first: 'Lars', last: '<Croft>' },
+    ];
+
+    console.log(tmpl(data));
+
 6.
 
