@@ -21,6 +21,7 @@ for (let codePoint of 'foo') {
     );
 
     //新的
+    //嵌入变量需要写在${}中
     $('#result').append(`
       There are <b>${basket.count}</b> items
        in your basket, <em>${basket.onSale}</em>
@@ -42,5 +43,5 @@ for (let codePoint of 'foo') {
     </ul>
     `.trim());
 
-5.
+6.
 
