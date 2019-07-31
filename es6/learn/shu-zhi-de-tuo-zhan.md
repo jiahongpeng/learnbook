@@ -21,6 +21,8 @@ Math.trunc('foo');    // NaN
 Math.trunc();         // NaN
 Math.trunc(undefined) // NaN
 
+
+//模拟
 Math.trunc = Math.trunc || function(x) {
   return x < 0 ? Math.ceil(x) : Math.floor(x);
 };
