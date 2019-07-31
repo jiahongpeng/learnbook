@@ -77,5 +77,13 @@ Math.cbrt = Math.cbrt || function(x) {
 };
 ```
 
-（4）Math.clz32\(\)
+8.指数运算符  
+
+\*\*
+
+```
+2 ** 3 ** 2
+```
+
+
 
