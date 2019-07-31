@@ -60,5 +60,14 @@ Math.sign = Math.sign || function(x) {
 };
 ```
 
+（3）Math.cbrt\(\):计算一个数的立方根
+
+```
+Math.cbrt(-1) // -1
+Math.cbrt(0)  // 0
+Math.cbrt(1)  // 1
+Math.cbrt(2)  // 1.2599210498948734
+```
+
 
 
