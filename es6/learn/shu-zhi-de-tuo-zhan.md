@@ -49,6 +49,15 @@ Math.sign('9')  // +1
 Math.sign('foo')  // NaN
 Math.sign()  // NaN
 Math.sign(undefined)  // NaN
+
+//模拟
+Math.sign = Math.sign || function(x) {
+  x = +x; // convert to a number
+  if (x === 0 || isNaN(x)) {
+    return x;
+  }
+  return x > 0 ? 1 : -1;
+};
 ```
 
 
