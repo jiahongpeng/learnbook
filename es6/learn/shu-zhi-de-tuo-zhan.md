@@ -77,5 +77,5 @@ Math.cbrt = Math.cbrt || function(x) {
 };
 ```
 
-（4）
+（4）Math.clz32\(\)
 
