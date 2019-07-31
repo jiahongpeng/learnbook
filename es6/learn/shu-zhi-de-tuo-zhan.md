@@ -77,7 +77,7 @@ Math.cbrt = Math.cbrt || function(x) {
 };
 ```
 
-8.指数运算符  
+8.指数运算符
 
 \*\*
 
