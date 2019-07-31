@@ -40,5 +40,16 @@ Math.trunc = Math.trunc || function(x) {
 
 其他值，返回`NaN`。
 
+```
+Math.sign('')  // 0
+Math.sign(true)  // +1
+Math.sign(false)  // 0
+Math.sign(null)  // 0
+Math.sign('9')  // +1
+Math.sign('foo')  // NaN
+Math.sign()  // NaN
+Math.sign(undefined)  // NaN
+```
+
 
 
