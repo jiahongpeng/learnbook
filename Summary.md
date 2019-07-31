@@ -21,6 +21,7 @@
     * [字符串新增方法](es6/learn/zi-fu-chuan-xin-zeng-fang-fa.md)
     * [正则的拓展](es6/learn/zheng-ze-de-tuo-zhan.md)
     * [数值的拓展](es6/learn/shu-zhi-de-tuo-zhan.md)
+    * [函数的拓展](es6/learn/han-shu-de-tuo-zhan.md)
 * [interview](interview.md)
   * [css](interview/css.md)
     * [css规范](interview/css/cssgui-fan.md)
