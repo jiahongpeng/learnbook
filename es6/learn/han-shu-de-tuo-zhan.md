@@ -21,5 +21,5 @@ log('Hello', 'China') // Hello China
 log('Hello', '') // Hello
 ```
 
-2.
+2. 
 
