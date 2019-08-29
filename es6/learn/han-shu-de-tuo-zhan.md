@@ -21,6 +21,7 @@ log('Hello', 'China') // Hello China
 log('Hello', '') // Hello
 
 //另一种用法
+//1
 function fetch(url, { body = '', method = 'GET', headers = {} }) {
   console.log(method);
 }
@@ -31,12 +32,19 @@ fetch('http://example.com', {})
 fetch('http://example.com')
 // 报错
 
+//2
 function fetch(url, { body = '', method = 'GET', headers = {} } = {}) {
   console.log(method);
 }
 
 fetch('http://example.com')
 // "GET"
+
+
+//函数的length属性
+(function (a) {}).length // 1
+(function (a = 5) {}).length // 0
+(function (a, b, c = 5) {}).length // 2
 ```
 
 1. 
