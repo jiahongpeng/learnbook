@@ -30,6 +30,13 @@ fetch('http://example.com', {})
 
 fetch('http://example.com')
 // 报错
+
+function fetch(url, { body = '', method = 'GET', headers = {} } = {}) {
+  console.log(method);
+}
+
+fetch('http://example.com')
+// "GET"
 ```
 
 1. 
