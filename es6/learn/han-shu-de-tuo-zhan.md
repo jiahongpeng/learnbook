@@ -59,3 +59,11 @@ foo(undefined, null)
 
 2.rest参数
 
+3.严格模式
+
+4.name属性
+
+5.箭头函数
+
+
+
