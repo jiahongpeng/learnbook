@@ -42,6 +42,7 @@ fetch('http://example.com')
 
 
 //函数的length属性
+//设置默认值之前的没有设置默认值的算一个
 (function (a) {}).length // 1
 (function (a = 5) {}).length // 0
 (function (a, b, c = 5) {}).length // 2
