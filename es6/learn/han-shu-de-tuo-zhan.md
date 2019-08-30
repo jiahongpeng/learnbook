@@ -45,6 +45,8 @@ fetch('http://example.com')
 (function (a) {}).length // 1
 (function (a = 5) {}).length // 0
 (function (a, b, c = 5) {}).length // 2
+
+//如果传入undefined，将触发该参数等于默认值，null则没有这个效果。
 ```
 
 1. 
