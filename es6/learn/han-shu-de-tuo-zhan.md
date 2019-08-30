@@ -48,6 +48,13 @@ fetch('http://example.com')
 (function (a, b, c = 5) {}).length // 2
 
 //如果传入undefined，将触发该参数等于默认值，null则没有这个效果。
+
+function foo(x = 5, y = 6) {
+  console.log(x, y);
+}
+
+foo(undefined, null)
+// 5 null
 ```
 
 1. 
