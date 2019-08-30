@@ -57,7 +57,5 @@ foo(undefined, null)
 // 5 null
 ```
 
-
-
-
+2.rest参数
 
